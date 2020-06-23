@@ -97,9 +97,9 @@ INPUT c:/texlive/2020/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT c:/texlive/2020/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT d:/GitRepos/graficos_covid/relatorio/fig1.jpg
-INPUT d:/GitRepos/graficos_covid/relatorio/fig1.jpg
-INPUT d:/GitRepos/graficos_covid/relatorio/fig1.jpg
+INPUT d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png
+INPUT d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png
+INPUT d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png
 INPUT c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 INPUT c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm
@@ -108,11 +108,11 @@ INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm
 INPUT d:/GitRepos/graficos_covid/relatorio/fig2.jpg
 INPUT d:/GitRepos/graficos_covid/relatorio/fig2.jpg
 INPUT d:/GitRepos/graficos_covid/relatorio/fig2.jpg
+INPUT d:/GitRepos/graficos_covid/relatorio/table.jpg
+INPUT d:/GitRepos/graficos_covid/relatorio/table.jpg
+INPUT d:/GitRepos/graficos_covid/relatorio/table.jpg
 INPUT c:/texlive/2020/texmf-dist/fonts/vf/adobe/helvetic/phvb7t.vf
 INPUT c:/texlive/2020/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT d:/GitRepos/graficos_covid/relatorio/table.jpg
-INPUT d:/GitRepos/graficos_covid/relatorio/table.jpg
-INPUT d:/GitRepos/graficos_covid/relatorio/table.jpg
 INPUT d:/GitRepos/graficos_covid/relatorio/main.bbl
 INPUT d:/GitRepos/graficos_covid/relatorio/main.bbl
 INPUT d:/GitRepos/graficos_covid/relatorio/main.aux

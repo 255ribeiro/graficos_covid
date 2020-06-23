@@ -33,7 +33,7 @@
 \begin{document} 
 
 
-\title{Relatório Técnico Sobre o Avanço da Covid-19 na Cidade de Dourados, MS\\ Análise de Dados e Comparações de Cenários}
+\title{Relatório Técnico Sobre o Avanço Pandemia Causada pelo Vírus SARS-CoV-2 na Cidade de Dourados, MS\\ Análise de Dados, Comparações de Cenários e Modelo Preditivo}
 
 \author{Fernando Ferraz Ribeiro\inst{1}, Rafael H. Bordini\inst{2}, Flávio Rech
   Wagner\inst{1}, Jomi F. Hübner\inst{3} }
@@ -54,39 +54,24 @@
 }
 
 
-
 \maketitle
 
 \begin{abstract}
-  This meta-paper describes the style to be used in articles and short papers
-  for SBC conferences. For papers in English, you should add just an abstract
-  while for the papers in Portuguese, we also ask for an abstract in
-  Portuguese (``resumo''). In both cases, abstracts should not have more than
-  10 lines and must be in the first page of the paper.
+  This report presents a study on the progress of the pandemic caused by the Sars-Cov2 virus in the municipality of Dourados, MS. For this purpose, the database provided by the Ministry of Health was used. The report presents a descriptive analysis of the data available in that database. A comparison with the cases diagnosed in other municipalities in the same state and with data from the city of Manaus, AM, used as a reference for an emblematic case of the advance of the pandemic in Brazil. In the end, a predictive model adapted from DELPHI, developed by a research team linked to MIT, used as an instrument to visualize the future scenario where current trends of progress are maintained and confirmed.
 \end{abstract}
      
 \begin{resumo} 
-  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
-  resumos de artigos para publicação nos anais das conferências organizadas
-  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
-  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
-  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
-  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
-  página do artigo.
+  Este relatório apresenta um estudo sobre o avanço da pandemia causada pelo vírus Sars-Cov2 no município de Dourados, MS. Para tanto foi utilizada a base de dados fornecida pelo Ministério da Saúde. O relatório apresenta uma análise descritiva dos dados disponíveis na referida base. Uma comparação com os casos diagnosticados em outros municípios do mesmo estado e com os dados da cidade de Manaus, AM, utilizado como referência de um caso emblemático do avanço da pandemia no Brasil. Ao fim, um modelo preditivo adaptado do DELPHI, desenvolvido pro uma equipe de pesquisa vinculada ao MIT, utilizado como instrumento de visualização do cenário futuro onde as atuais tendências de avanço sejam mantidas e confirmadas.
 \end{resumo}
 
 
-\section{General Information}
+\section{Introdução}
 
-All full papers and posters (short papers) submitted to some SBC conference,
-including any supporting documents, should be written in English or in
-Portuguese. The format paper should be A4 with single column, 3.5 cm for upper
-margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without
-headers or footers. The main font must be Times, 12 point nominal size, with 6
-points of space before each paragraph. Page numbers must be suppressed.
+O avanço da pandemia da covid-19, causada pelo vírus SARS-CoV-2, tem se apresentado como o mais importante desafio do tempo presente. Autoridades políticas, cientistas e a sociedade tem buscado se organizar com o intuito de minimizar os grandes malefícios, direta ou indiretamente ligados à propagação desta enfermidade. De acordo com a \textit{Johns Hopkins University}, uma das principais fontes de dados mundiais sobre o tema, o número de casos confirmados no mundo já ultrapassa os 9 milhões (em 23/06/2020).
 
-Full papers must respect the page limits defined by the conference.
-Conferences that publish just abstracts ask for \textbf{one}-page texts.
+A adequada coleta e análise dos dados relativos à pandemia tem sido uma importante ferramenta no enfrentamento desta crise, sendo usada para direcionar ações, recursos e informações em todas as esferas da sociedade, na procura de um caminho menos calamitoso na lida com este nebuloso cenário.
+
+No presente trabalho, uma análise dos dados da cidade de Dourados, MS e apresentada. A situação da cidade é comparada com os demais municípios do estado e a curva de crescimento registrada na referida cidade é comparada com a curva registrada na cidade de Manaus, AM. Em seguida os dados são utilizados para alimentar um modelo preditivo baseado no DELPHI, desenvolvido por uma equipe de pesquisadores ligada ao MIT. Na conclusão, os resultados obtidos são analisados e possíveis desdobramentos de pesquisa sugeridos. 
 
 \section{First Page} \label{sec:firstpage}
 
@@ -133,11 +118,11 @@ both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
 be Helvetica, 10 point, boldface, with 6 points of space before and after each
 caption.
 
-\begin{figure}[ht]
+\begin{figure}[!htb]
 \centering
-\includegraphics[width=.5\textwidth]{fig1.jpg}
-\caption{A typical figure}
-\label{fig:exampleFig1}
+\includegraphics[width=1\textwidth]{figs/casos_100_mil_por_municipio.png}
+\caption{Número de casos diagnosticados por município (MS)}
+\label{fig:casosMuni100k}
 \end{figure}
 
 \begin{figure}[ht]
