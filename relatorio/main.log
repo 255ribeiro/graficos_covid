@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  23 JUN 2020 16:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  23 JUN 2020 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -106,17 +106,26 @@ Package babel Info: Making " an active character on input line 143.
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
-) (c:/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (c:/texlive/2020/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+ (c:/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2020/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip51
+\L@UnitsRaiseTextstyle=\skip52
+\L@UnitsRaiseScriptstyle=\skip53
+)) (c:/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
 ) (c:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count181
@@ -124,21 +133,21 @@ File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 ) (d:/GitRepos/graficos_covid/relatorio/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 20.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -196,66 +205,46 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 57.
+(Font)              <12> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 57.
+(Font)              <8> on input line 43.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 57.
-
-Overfull \hbox (26.24568pt too wide) in paragraph at lines 57--57
+(Font)              <6> on input line 43.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 43.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Overfull \hbox (47.20866pt too wide) in paragraph at lines 43--43
  [][] 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 57.
-(c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1
+[1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 80.
+(Font)              <7> on input line 66.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 80.
+(Font)              <5> on input line 66.
 <figs/casos_por_municipio.png, id=12, 846.16125pt x 1090.0725pt>
 File: figs/casos_por_municipio.png Graphic file (type png)
 <use figs/casos_por_municipio.png>
-Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 84.
+Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 70.
 (pdftex.def)             Requested size: 426.79135pt x 549.80862pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 85.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 71.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 <figs/pop_por_municipio.png, id=14, 855.195pt x 1090.0725pt>
 File: figs/pop_por_municipio.png Graphic file (type png)
 <use figs/pop_por_municipio.png>
-Package pdftex.def Info: figs/pop_por_municipio.png  used on input line 93.
+Package pdftex.def Info: figs/pop_por_municipio.png  used on input line 79.
 (pdftex.def)             Requested size: 426.79135pt x 544.00366pt.
 <figs/casos_100_mil_por_municipio.png, id=15, 852.18375pt x 1090.0725pt>
 File: figs/casos_100_mil_por_municipio.png Graphic file (type png)
 <use figs/casos_100_mil_por_municipio.png>
-Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 103.
+Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 89.
 (pdftex.def)             Requested size: 426.79135pt x 545.9331pt.
-<figs/mapa_casos_registrados.png, id=16, 1084.05pt x 1084.05pt>
-File: figs/mapa_casos_registrados.png Graphic file (type png)
-<use figs/mapa_casos_registrados.png>
-Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 116.
-(pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
-<figs/mapa_casos_100_mil.png, id=17, 925.4575pt x 840.13875pt>
-File: figs/mapa_casos_100_mil.png Graphic file (type png)
-<use figs/mapa_casos_100_mil.png>
-Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 124.
-(pdftex.def)             Requested size: 426.79135pt x 387.4428pt.
-<figs/Dourados_Manaus_casos.png, id=18, 628.3475pt x 651.43375pt>
-File: figs/Dourados_Manaus_casos.png Graphic file (type png)
-<use figs/Dourados_Manaus_casos.png>
-Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 134.
-(pdftex.def)             Requested size: 256.07741pt x 265.47926pt.
-<figs/Dourados_Manaus_casos_log.png, id=19, 619.31375pt x 651.43375pt>
-File: figs/Dourados_Manaus_casos_log.png Graphic file (type png)
-<use figs/Dourados_Manaus_casos_log.png>
-Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 142.
-(pdftex.def)             Requested size: 256.07741pt x 269.36583pt.
- (d:/GitRepos/graficos_covid/relatorio/main.bbl
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
@@ -263,23 +252,55 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3 <d:/GitRepos/graficos_covid/relatorio/figs/casos_por_municipio.png>] [4 <d:/GitRepos/graficos_covid/relatorio/figs/pop_por_municipio.png>]
+<figs/mapa_casos_registrados.png, id=29, 1084.05pt x 1084.05pt>
+File: figs/mapa_casos_registrados.png Graphic file (type png)
+<use figs/mapa_casos_registrados.png>
+Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 106.
+(pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
+
+Underfull \vbox (badness 8019) has occurred while \output is active []
+
+ [5 <d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png>]
+<figs/mapa_casos_100_mil.png, id=34, 925.4575pt x 840.13875pt>
+File: figs/mapa_casos_100_mil.png Graphic file (type png)
+<use figs/mapa_casos_100_mil.png>
+Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 115.
+(pdftex.def)             Requested size: 426.79135pt x 387.4428pt.
+
+Underfull \vbox (badness 3525) has occurred while \output is active []
+
+ [6 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_registrados.png>]
+<figs/Dourados_Manaus_casos.png, id=39, 628.3475pt x 651.43375pt>
+File: figs/Dourados_Manaus_casos.png Graphic file (type png)
+<use figs/Dourados_Manaus_casos.png>
+Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 128.
+(pdftex.def)             Requested size: 256.07741pt x 265.47926pt.
+<figs/Dourados_Manaus_casos_log.png, id=40, 619.31375pt x 651.43375pt>
+File: figs/Dourados_Manaus_casos_log.png Graphic file (type png)
+<use figs/Dourados_Manaus_casos_log.png>
+Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 136.
+(pdftex.def)             Requested size: 256.07741pt x 269.36583pt.
+ (d:/GitRepos/graficos_covid/relatorio/main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [3 <d:/GitRepos/graficos_covid/relatorio/figs/casos_por_municipio.png>] [4 <d:/GitRepos/graficos_covid/relatorio/figs/pop_por_municipio.png>] [5 <d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png>] [6 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_registrados.png>] [7 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_100_mil.png>] [8 <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos_log.png>] (d:/GitRepos/graficos_covid/relatorio/main.aux) ) 
+) [7 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_100_mil.png>] [8 <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos_log.png>] (d:/GitRepos/graficos_covid/relatorio/main.aux) ) 
 Here is how much of TeX's memory you used:
- 3296 strings out of 480476
- 47320 string characters out of 5903482
- 311831 words of memory out of 5000000
- 19274 multiletter control sequences out of 15000+600000
+ 3385 strings out of 480476
+ 48546 string characters out of 5903482
+ 314429 words of memory out of 5000000
+ 19353 multiletter control sequences out of 15000+600000
  553979 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,45p,797b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (8 pages, 685334 bytes).
+ 38i,10n,45p,1042b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (8 pages, 696397 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
