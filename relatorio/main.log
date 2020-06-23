@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  23 JUN 2020 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  23 JUN 2020 16:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,24 +212,50 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ) [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `fig:exampleFig1' on page 2 undefined on input line 116.
-
-<figs/casos_100_mil_por_municipio.png, id=12, 852.18375pt x 1090.0725pt>
-File: figs/casos_100_mil_por_municipio.png Graphic file (type png)
-<use figs/casos_100_mil_por_municipio.png>
-Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 123.
-(pdftex.def)             Requested size: 426.79135pt x 545.9331pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 124.
-(c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 80.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 80.
+<figs/casos_por_municipio.png, id=12, 846.16125pt x 1090.0725pt>
+File: figs/casos_por_municipio.png Graphic file (type png)
+<use figs/casos_por_municipio.png>
+Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 84.
+(pdftex.def)             Requested size: 426.79135pt x 549.80862pt.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 85.
+ (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<fig2.jpg, id=14, 205.7286pt x 234.1548pt>
-File: fig2.jpg Graphic file (type jpg)
-<use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 130.
-(pdftex.def)             Requested size: 128.0387pt x 145.73541pt.
-
+<figs/pop_por_municipio.png, id=14, 855.195pt x 1090.0725pt>
+File: figs/pop_por_municipio.png Graphic file (type png)
+<use figs/pop_por_municipio.png>
+Package pdftex.def Info: figs/pop_por_municipio.png  used on input line 93.
+(pdftex.def)             Requested size: 426.79135pt x 544.00366pt.
+<figs/casos_100_mil_por_municipio.png, id=15, 852.18375pt x 1090.0725pt>
+File: figs/casos_100_mil_por_municipio.png Graphic file (type png)
+<use figs/casos_100_mil_por_municipio.png>
+Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 103.
+(pdftex.def)             Requested size: 426.79135pt x 545.9331pt.
+<figs/mapa_casos_registrados.png, id=16, 1084.05pt x 1084.05pt>
+File: figs/mapa_casos_registrados.png Graphic file (type png)
+<use figs/mapa_casos_registrados.png>
+Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 116.
+(pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
+<figs/mapa_casos_100_mil.png, id=17, 925.4575pt x 840.13875pt>
+File: figs/mapa_casos_100_mil.png Graphic file (type png)
+<use figs/mapa_casos_100_mil.png>
+Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 124.
+(pdftex.def)             Requested size: 426.79135pt x 387.4428pt.
+<figs/Dourados_Manaus_casos.png, id=18, 628.3475pt x 651.43375pt>
+File: figs/Dourados_Manaus_casos.png Graphic file (type png)
+<use figs/Dourados_Manaus_casos.png>
+Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 134.
+(pdftex.def)             Requested size: 256.07741pt x 265.47926pt.
+<figs/Dourados_Manaus_casos_log.png, id=19, 619.31375pt x 651.43375pt>
+File: figs/Dourados_Manaus_casos_log.png Graphic file (type png)
+<use figs/Dourados_Manaus_casos_log.png>
+Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 142.
+(pdftex.def)             Requested size: 256.07741pt x 269.36583pt.
+ (d:/GitRepos/graficos_covid/relatorio/main.bbl
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
@@ -237,32 +263,23 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-<table.jpg, id=18, 365.2044pt x 217.2918pt>
-File: table.jpg Graphic file (type jpg)
-<use table.jpg>
-Package pdftex.def Info: table.jpg  used on input line 148.
-(pdftex.def)             Requested size: 298.75264pt x 177.75932pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
- [3 <d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png>] (d:/GitRepos/graficos_covid/relatorio/main.bbl [4 <d:/GitRepos/graficos_covid/relatorio/fig2.jpg> <d:/GitRepos/graficos_covid/relatorio/table.jpg>]) [5] (d:/GitRepos/graficos_covid/relatorio/main.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+) [3 <d:/GitRepos/graficos_covid/relatorio/figs/casos_por_municipio.png>] [4 <d:/GitRepos/graficos_covid/relatorio/figs/pop_por_municipio.png>] [5 <d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png>] [6 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_registrados.png>] [7 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_100_mil.png>] [8 <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos_log.png>] (d:/GitRepos/graficos_covid/relatorio/main.aux) ) 
 Here is how much of TeX's memory you used:
- 3265 strings out of 480476
- 46253 string characters out of 5903482
- 309787 words of memory out of 5000000
- 19250 multiletter control sequences out of 15000+600000
- 549731 words of font info for 54 fonts, out of 8000000 for 9000
+ 3296 strings out of 480476
+ 47320 string characters out of 5903482
+ 311831 words of memory out of 5000000
+ 19274 multiletter control sequences out of 15000+600000
+ 553979 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,10n,45p,797b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (5 pages, 255135 bytes).
+Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (8 pages, 685334 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
