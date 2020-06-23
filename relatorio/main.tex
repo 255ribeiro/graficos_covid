@@ -1,268 +1,188 @@
-% ------------------------------------------------------------------------
-% ------------------------------------------------------------------------
-% abnTeX2: Modelo de Projeto de pesquisa em conformidade com 
-% ABNT NBR 15287:2011 Informação e documentação - Projeto de pesquisa -
-% Apresentação 
-% ------------------------------------------------------------------------ 
-% ------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[
-	% -- opções da classe memoir --
-	12pt,				% tamanho da fonte
-	%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
-	oneside,			% para impressão em verso e anverso. Oposto a oneside
-	a4paper,			% tamanho do papel. 
-	% -- opções da classe abntex2 --
-	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
-	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
-	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
-	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
-	% -- opções do pacote babel --
-	english,			% idioma adicional para hifenização
-	french,				% idioma adicional para hifenização
-	spanish,			% idioma adicional para hifenização
-	brazil,				% o último idioma é o principal do documento
-	]{abntex2}
+\documentclass[12pt]{article}
 
-% ---
-% PACOTES
-% ---
+\usepackage{sbc-template}
 
-% ---
-% Pacotes fundamentais 
-% ---
-\usepackage{lmodern}			% Usa a fonte Latim Moderno
-\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
-\usepackage[utf8]{inputenc}		% Codificação do documento (conversão automática dos acentos)
-%\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
-\usepackage{color}				% Controle das cores
-\usepackage{graphicx}			% Inclusão de gráficos
-\usepackage{microtype} 			% para melhorias de justificação
-\usepackage[T1]{fontenc}
-% ---
-%\usepackage{subcaption} 
+\usepackage{graphicx,url}
 
-% ---
-% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
-% ---
-%\usepackage{lipsum}				% para geração de dummy text
-% ---
+\usepackage[brazil]{babel}   
+\usepackage[utf8]{inputenc}  
 
-% ---
-% Pacotes de citações
-% ---
-\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage{fancyhdr}
+\pagestyle{fancy}
 
-% --- 
-% CONFIGURAÇÕES DE PACOTES
-% --- 
+\fancyhead[L]{ }
+\fancyhead[R]{ }
 
-% ---
-% Configurações do pacote backref
-% Usado sem a opção hyperpageref de backref
-\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
-% Texto padrão antes do número das páginas
-\renewcommand{\backref}{}
-% Define os textos da citação
-\renewcommand*{\backrefalt}[4]{
-	\ifcase #1 %
-		Nenhuma citação no texto.%
-	\or
-		Citado na página #2.%
-	\else
-		Citado #1 vezes nas páginas #2.%
-	\fi}%
-% ---
+%\chead{\begin{picture}(3,3) \put(-230,-15) {\includegraphics%[width=16cm, height=2.8cm, keepaspectratio=false]{logoSIRC.png}} \end{picture}}
+\renewcommand{\headrulewidth}{0pt}
+\sloppy
+\begin{document} 
 
-% ---
-% Informações de dados para CAPA e FOLHA DE ROSTO
-% ---
-\titulo{Análise de Dados da Covid-19 na cidade de Dourado, MS:\\ um estudo descritivo e comparativo  da situação do município}
 
-\autor{Fernando Ferraz Ribeiro}
-\local{Salvador, Bahia, Brasil}
-\data{Junho, 2020}
-\instituicao{%
-  Universidade Federal da Bahia - UFBA
-  \par
-  Faculdade de Arquitetura
-  \par
-  PPG-AU}
-\tipotrabalho{Relatório Técnico}
-% O preambulo deve conter o tipo do trabalho, o objetivo, 
-% o nome da instituição e a área de concentração 
-\preambulo{}
-% ---
+\title{Relatório Técnico Sobre o Avanço da Covid-19 na Cidade de Dourados, MS\\ Análise de Dados e Comparações de Cenários}
 
-% ---
-% Configurações de aparência do PDF final
+\author{Fernando Ferraz Ribeiro\inst{1}, Rafael H. Bordini\inst{2}, Flávio Rech
+  Wagner\inst{1}, Jomi F. Hübner\inst{3} }
+  
 
-% alterando o aspecto da cor azul
-\definecolor{blue}{RGB}{41,5,195}
 
-% informações do PDF
-\makeatletter
-\hypersetup{
-     	%pagebackref=true,
-		pdftitle={\@title}, 
-		pdfauthor={\@author},
-    	pdfsubject={\imprimirpreambulo},
-	    pdfcreator={LaTeX with abnTeX2},
-		pdfkeywords={Análise de dados}{Covid-19}{Dourados-MS}, 
-		colorlinks=true,       		% false: boxed links; true: colored links
-    	linkcolor=blue,          	% color of internal links
-    	citecolor=blue,        		% color of links to bibliography
-    	filecolor=magenta,      		% color of file links
-		urlcolor=blue,
-		bookmarksdepth=4
+\address{Universidade Federal da Bahia -- Faculdade de Arquitetura -- LCAD
+  (UFBA)\\
+  Salvador, BA -- Brasil
+\nextinstitute
+  Department of Computer Science -- University of Durham\\
+  Durham, U.K.
+\nextinstitute
+  Departamento de Sistemas e Computação\\
+  Universidade Regional de Blumenal (FURB) -- Blumenau, SC -- Brazil
+  \email{fernando.ribeiro@ufba.br, R.Bordini@durham.ac.uk,
+  jomi@inf.furb.br}
 }
-\makeatother
-% --- 
-
-% --- 
-% Espaçamentos entre linhas e parágrafos 
-% --- 
-
-% O tamanho do parágrafo é dado por:
-\setlength{\parindent}{0cm}
-
-% Controle do espaçamento entre um parágrafo e outro:
-\setlength{\parskip}{0.2cm}  % tente também \onelineskip
-
-% ---
-% compila o indice
-% ---
-\makeindex
-% ---
-
-% ----
-% Início do documento
-% ----
-\begin{document}
-
-% Retira espaço extra obsoleto entre as frases.
-\frenchspacing 
-
-% ----------------------------------------------------------
-% ELEMENTOS PRÉ-TEXTUAIS
-% ----------------------------------------------------------
-\pretextual
-
-% ---
-% Capa
-% ---
-\imprimircapa
-% ---
-
-% ---
-% Folha de rosto
-% ---
-\imprimirfolhaderosto
-% ---
- 
-
-% ---
-% NOTA DA ABNT NBR 15287:2011, p. 4:
-%  ``Se exigido pela entidade, apresentar os dados curriculares do autor em
-%     folha ou página distinta após a folha de rosto.''
-% ---
-
-% ---
-% inserir lista de ilustrações
-% ---
-%\pdfbookmark[0]{\listfigurename}{lof}
-%\listoffigures*
-%\cleardoublepage
-% ---
-
-% ---
-% inserir lista de tabelas
-% ---
-%\pdfbookmark[0]{\listtablename}{lot}
-%\listoftables*
-%\cleardoublepage
-% ---
-
-% ---
-% inserir lista de abreviaturas e siglas
-% ---
-% \begin{siglas}
-%   \item[Fig.] Area of the $i^{th}$ component
-%   \item[456] Isto é um número
-%   \item[123] Isto é outro número
-%   \item[lauro cesar] este é o meu nome
-% \end{siglas}
-% ---
-
-% ---
-% inserir lista de símbolos
-% ---
-% \begin{simbolos}
-%   \item[$ \Gamma $] Letra grega Gama
-%   \item[$ \Lambda $] Lambda
-%   \item[$ \zeta $] Letra grega minúscula zeta
-%   \item[$ \in $] Pertence
-% \end{simbolos}
-% ---
-
-% ---
-% inserir o sumario
-% ---
-\pdfbookmark[0]{\contentsname}{toc}
-\tableofcontents*
-\cleardoublepage
-% ---
 
 
-% ----------------------------------------------------------
-% ELEMENTOS TEXTUAIS
-% ----------------------------------------------------------
-\textual
 
-% ----------------------------------------------------------
-% Introdução
-% ----------------------------------------------------------
-\chapter{Introdução}
+\maketitle
 
-Nas últimas décadas, a quantidade de dados produzidos pela humanidade cresceu de forma exponencial. A aquisição, manipulação, gestão, armazenamento e criação de valor a partir destes dados, através de ambientes computacionais, tem-se apresentado como um novo paradigma tecnológico da humanidade. Este campo disrruptivo do conhecimento recebeu a denominação de Ciência de Dados, conceito que envelopa alguns termos frequentemente associados à inovação científica, técnica e social como \emph{Big Data}, mineração de dados, \emph{Business Intelligence} internet das coisas, inteligência artificial e aprendizado de máquina, dentre outros \cite[p. 12-13]{EMCdata2015}. Na subárea dos dados geoespaciais, embora carregue características específicas importantes, a mudança tem apresentado escala semelhante. Áreas como o planejamento urbano, \cite{OSMAN2019620, Zhou2016}, o monitoramento e gestão do trânsito de veículos \cite{Bermudez-Edo2018}, políticas públicas e serviços para a cidade, seus habitantes e visitantes \cite{Lim2018}, tem sofrido grande influência da Ciência de Dados, promovida por universidades, centros de pesquisa, empresas e poder público.
+\begin{abstract}
+  This meta-paper describes the style to be used in articles and short papers
+  for SBC conferences. For papers in English, you should add just an abstract
+  while for the papers in Portuguese, we also ask for an abstract in
+  Portuguese (``resumo''). In both cases, abstracts should not have more than
+  10 lines and must be in the first page of the paper.
+\end{abstract}
+     
+\begin{resumo} 
+  Este meta-artigo descreve o estilo a ser usado na confecção de artigos e
+  resumos de artigos para publicação nos anais das conferências organizadas
+  pela SBC. É solicitada a escrita de resumo e abstract apenas para os artigos
+  escritos em português. Artigos em inglês deverão apresentar apenas abstract.
+  Nos dois casos, o autor deve tomar cuidado para que o resumo (e o abstract)
+  não ultrapassem 10 linhas cada, sendo que ambos devem estar na primeira
+  página do artigo.
+\end{resumo}
 
-O que se propõe neste projeto de pesquisa é a condução de uma análise da mobilidade na Cidade de Salvador a partir da manipulação, estudo, análise e combinação de dados e informações de três bancos de dados distintos. 
+
+\section{General Information}
+
+All full papers and posters (short papers) submitted to some SBC conference,
+including any supporting documents, should be written in English or in
+Portuguese. The format paper should be A4 with single column, 3.5 cm for upper
+margin, 2.5 cm for bottom margin and 3.0 cm for lateral margins, without
+headers or footers. The main font must be Times, 12 point nominal size, with 6
+points of space before each paragraph. Page numbers must be suppressed.
+
+Full papers must respect the page limits defined by the conference.
+Conferences that publish just abstracts ask for \textbf{one}-page texts.
+
+\section{First Page} \label{sec:firstpage}
+
+The first page must display the paper title, the name and address of the
+authors, the abstract in English and ``resumo'' in Portuguese (``resumos'' are
+required only for papers written in Portuguese). The title must be centered
+over the whole page, in 16 point boldface font and with 12 points of space
+before itself. Author names must be centered in 12 point font, bold, all of
+them disposed in the same line, separated by commas and with 12 points of
+space after the title. Addresses must be centered in 12 point font, also with
+12 points of space after the authors' names. E-mail addresses should be
+written using font Courier New, 10 point nominal size, with 6 points of space
+before and 6 points of space after.
+
+The abstract and ``resumo'' (if is the case) must be in 12 point Times font,
+indented 0.8cm on both sides. The word \textbf{Abstract} and \textbf{Resumo},
+should be written in boldface and must precede the text.
+
+\section{CD-ROMs and Printed Proceedings}
+
+In some conferences, the papers are published on CD-ROM while only the
+abstract is published in the printed Proceedings. In this case, authors are
+invited to prepare two final versions of the paper. One, complete, to be
+published on the CD and the other, containing only the first page, with
+abstract and ``resumo'' (for papers in Portuguese).
+
+\section{Sections and Paragraphs}
+
+Section titles must be in boldface, 13pt, flush left. There should be an extra
+12 pt of space before each title. Section numbering is optional. The first
+paragraph of each section should not be indented, while the first lines of
+subsequent paragraphs should be indented by 1.27 cm.
+
+\subsection{Subsections}
+
+The subsection titles must be in boldface, 12pt, flush left.
+
+\section{Figures and Captions}\label{sec:figs}
 
 
-\begin{figure}[!htb]
-	\centering
-	\caption{legenda}
-	\includegraphics[width=1
-	\textwidth]{./figs/pop_por_municipio.png}
-	\\{\footnotesize Fonte: Elaborada Pelos Autores}
-	\label{fig:teste}
+Figure and table captions should be centered if less than one line
+(Figure~\ref{fig:exampleFig1}), otherwise justified and indented by 0.8cm on
+both margins, as shown in Figure~\ref{fig:exampleFig2}. The caption font must
+be Helvetica, 10 point, boldface, with 6 points of space before and after each
+caption.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.5\textwidth]{fig1.jpg}
+\caption{A typical figure}
+\label{fig:exampleFig1}
 \end{figure}
 
-% ----------------------------------------------------------
-% Desenvolvimento
-% ----------------------------------------------------------
-\chapter{Ciência de Dados e Planejamento Urbano}
-\section{Objeto de Estudo e Abordagem Teórica}
-\section{Justificativa}
-\section{Objetivos}
-\section{Metodologia}
-\chapter{Cronograma}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=.3\textwidth]{fig2.jpg}
+\caption{This figure is an example of a figure caption taking more than one
+  line and justified considering margins mentioned in Section~\ref{sec:figs}.}
+\label{fig:exampleFig2}
+\end{figure}
 
-% ----------------------------------------------------------
-% Conclusão
-% ----------------------------------------------------------
-\chapter{Considerações finais}
+In tables, try to avoid the use of colored or shaded backgrounds, and avoid
+thick, doubled, or unnecessary framing lines. When reporting empirical data,
+do not use more decimal digits than warranted by their precision and
+reproducibility. Table caption must be placed before the table (see Table 1)
+and the font used must also be Helvetica, 10 point, boldface, with 6 points of
+space before and after each caption.
 
-% ----------------------------------------------------------
-% ELEMENTOS PÓS-TEXTUAIS
-% ----------------------------------------------------------
-\postextual
-% ----------------------------------------------------------
-% Referências bibliográficas
-% ----------------------------------------------------------
-\bibliography{abntex2-modelo-references}
-% ----------------------------------------------------------
-% Fim do documento
-% ----------------------------------------------------------
+\begin{table}[ht]
+\centering
+\caption{Variables to be considered on the evaluation of interaction
+  techniques}
+\label{tab:exTable1}
+\includegraphics[width=.7\textwidth]{table.jpg}
+\end{table}
+
+\section{Images}
+
+All images and illustrations should be in black-and-white, or gray tones,
+excepting for the papers that will be electronically available (on CD-ROMs,
+internet, etc.). The image resolution on paper should be about 600 dpi for
+black-and-white images, and 150-300 dpi for grayscale images.  Do not include
+images with excessive resolution, as they may take hours to print, without any
+visible difference in the result. 
+
+\section{References}
+
+Bibliographic references must be unambiguous and uniform.  We recommend giving
+the author names references in brackets, e.g. \cite{knuth:84},
+\cite{boulic:91}, and \cite{smith:99}.
+
+The references must be listed using 12 point font size, with 6 points of space
+before each reference. The first line of each reference should not be
+indented, while the subsequent should be indented by 0.5 cm.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
 \end{document}
