@@ -57,6 +57,13 @@ O avanço da pandemia da covid-19, causada pelo vírus SARS-CoV-2, tem se aprese
 
 A adequada coleta e análise dos dados relativos à pandemia tem sido uma importante ferramenta no enfrentamento desta crise, sendo usada para direcionar ações, recursos e informações em todas as esferas da sociedade, na procura de um caminho menos calamitoso na lida com este nebuloso cenário.
 
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=1\textwidth]{figs/casos_por_municipio.png}
+  \caption{Número de casos diagnosticados por município (MS)}
+  \label{fig:casosMuni}
+  \end{figure}
+
 No presente trabalho, uma análise dos dados da cidade de Dourados, MS e apresentada. A situação da cidade é comparada com os demais municípios do estado e a curva de crescimento registrada na referida cidade é comparada com a curva registrada na cidade de Manaus, AM. Em seguida os dados são utilizados para alimentar um modelo preditivo baseado no DELPHI, desenvolvido por uma equipe de pesquisadores ligada ao MIT. Na conclusão, os resultados obtidos são analisados e possíveis desdobramentos de pesquisa sugeridos. 
 
 \section{Metodologia}\label{sec:met}
@@ -64,13 +71,6 @@ No presente trabalho, uma análise dos dados da cidade de Dourados, MS e apresen
 Mesmo sob a alardeada interiorização da pandemia no Brasil, o caso do município de Dourados, MS chama a atenção pelo fato de, mesmo com uma população equivalente à \(\nicefrac{1}{4}\) da de Campo Grande, apresenta um número total de casos diagnosticados aproximadamente 60\% maior do que os registrados na capital.
 
 A fonte de dados utilizada na elaboração deste relatório foram obtidas no portal \textbf{CORONAVÍRUS BRASIL}\footnote{https://covid.saude.gov.br/}, onde as informações oficiais do Ministério da Saúde sobre a pandemia são disponibilizados. As informações constantes como número de casos (acumulados e novos casos) e sobre a população de cada município foram extraídas desta base. Os dados utilizados foram os disponibilizados do dia 21/06/2020. 
-
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=1\textwidth]{figs/casos_por_municipio.png}
-  \caption{Número de casos diagnosticados por município (MS)}
-  \label{fig:casosMuni}
-  \end{figure}
 
 Com base neste conjunto de dados, foram comparados o numero de casos e a população dos diferentes municípios do estado. Representadas em forma de diagramas e mapas (dados geoespaciais) procurando entender como está a distribuição de casos nas diversas regiões do estado. A curva de crescimento dos casos do município foram comparadas com a curva do município de Manaus, AM, procurando entender o quanto esta evolução se aproxima de um caso emblemático da evolução do contágio em território nacional.
 
@@ -80,7 +80,6 @@ Com base neste conjunto de dados, foram comparados o numero de casos e a popula�
   \caption{População por município (MS)}
   \label{fig:popuMuniMS}
   \end{figure}
-
 
   Estratégias de visualização de dados e ajuste de polinómios foram utilizadas para ilustrar e entender o caso em estudo. Após essas análises, os dados foram tratados e submetidos ao modelo preditivo escolhido. Ao fim, os resultados são discutidos.
 
@@ -123,13 +122,16 @@ Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos 
 
 \subsection{Curva de Casos e Comparação com o cenário de Manaus}\label{ssec:curvaMAU}
 
+Os dados apresentados até então apresentam um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizamos a Figura~\ref{fig:curva100K} {fig:curva100KLog} onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
+
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=.6\textwidth]{figs/Dourados_Manaus_casos.png}
   \caption{Curva do número de casos diagnosticados por 100 mil habitantes. Comparativo entre Dourados(MS) e Manaus(AM)}
   \label{fig:curva100K}
   \end{figure}
----
+
+  Na base de dados utilizada o primeiro registro de casos em Manaus e datado no dia 28/03/2020, neste dia são apresentados 105 casos. Considerando a população estimada em 2182763 habitantes da cidade, obtemos uma taxa de 4.81 casos por cem mil habitantes. Já em Dourados, o índice de aproximados 4.81 casos por 100 mil habitantes só é alcançado no dia 14/04/2020.
 
 \begin{figure}[!htb]
   \centering
@@ -138,7 +140,9 @@ Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos 
   \label{fig:curva100KLog}
   \end{figure}
 
----
+Para efeito de Visualização de dados o dia zero da curva de Dourados foi lançado no mapa na data em que ele alcança a marca inicial do índice de casos por 100 mil habitantes da cidade de Manaus. O Amazonas foi um dos primeiros estados a registrar casos da doença e a evolução até a marca que aparece no primeiro registro não foi registrado, ao menos não pela base de dados utilizada nesta análise. 
+
+
 
 
 \section{Modelo Preditivo}

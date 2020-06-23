@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  23 JUN 2020 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  23 JUN 2020 19:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -221,73 +221,73 @@ Overfull \hbox (47.20866pt too wide) in paragraph at lines 43--43
 [1
 
 {c:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 66.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 66.
 <figs/casos_por_municipio.png, id=12, 846.16125pt x 1090.0725pt>
 File: figs/casos_por_municipio.png Graphic file (type png)
 <use figs/casos_por_municipio.png>
-Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 70.
+Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 62.
 (pdftex.def)             Requested size: 426.79135pt x 549.80862pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 71.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 63.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-<figs/pop_por_municipio.png, id=14, 855.195pt x 1090.0725pt>
-File: figs/pop_por_municipio.png Graphic file (type png)
-<use figs/pop_por_municipio.png>
-Package pdftex.def Info: figs/pop_por_municipio.png  used on input line 79.
-(pdftex.def)             Requested size: 426.79135pt x 544.00366pt.
-<figs/casos_100_mil_por_municipio.png, id=15, 852.18375pt x 1090.0725pt>
-File: figs/casos_100_mil_por_municipio.png Graphic file (type png)
-<use figs/casos_100_mil_por_municipio.png>
-Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 89.
-(pdftex.def)             Requested size: 426.79135pt x 545.9331pt.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <d:/GitRepos/graficos_covid/relatorio/figs/casos_por_municipio.png>] [4 <d:/GitRepos/graficos_covid/relatorio/figs/pop_por_municipio.png>]
-<figs/mapa_casos_registrados.png, id=29, 1084.05pt x 1084.05pt>
+[2 <d:/GitRepos/graficos_covid/relatorio/figs/casos_por_municipio.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 73.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 73.
+<figs/pop_por_municipio.png, id=19, 855.195pt x 1090.0725pt>
+File: figs/pop_por_municipio.png Graphic file (type png)
+<use figs/pop_por_municipio.png>
+Package pdftex.def Info: figs/pop_por_municipio.png  used on input line 79.
+(pdftex.def)             Requested size: 426.79135pt x 544.00366pt.
+<figs/casos_100_mil_por_municipio.png, id=20, 852.18375pt x 1090.0725pt>
+File: figs/casos_100_mil_por_municipio.png Graphic file (type png)
+<use figs/casos_100_mil_por_municipio.png>
+Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 88.
+(pdftex.def)             Requested size: 426.79135pt x 545.9331pt.
+ [3]
+<figs/mapa_casos_registrados.png, id=25, 1084.05pt x 1084.05pt>
 File: figs/mapa_casos_registrados.png Graphic file (type png)
 <use figs/mapa_casos_registrados.png>
-Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 106.
+Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 105.
 (pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
+ [4 <d:/GitRepos/graficos_covid/relatorio/figs/pop_por_municipio.png>]
+<figs/mapa_casos_100_mil.png, id=30, 925.4575pt x 840.13875pt>
+File: figs/mapa_casos_100_mil.png Graphic file (type png)
+<use figs/mapa_casos_100_mil.png>
+Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 114.
+(pdftex.def)             Requested size: 426.79135pt x 387.4428pt.
 
 Underfull \vbox (badness 8019) has occurred while \output is active []
 
  [5 <d:/GitRepos/graficos_covid/relatorio/figs/casos_100_mil_por_municipio.png>]
-<figs/mapa_casos_100_mil.png, id=34, 925.4575pt x 840.13875pt>
-File: figs/mapa_casos_100_mil.png Graphic file (type png)
-<use figs/mapa_casos_100_mil.png>
-Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 115.
-(pdftex.def)             Requested size: 426.79135pt x 387.4428pt.
-
-Underfull \vbox (badness 3525) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_registrados.png>]
 <figs/Dourados_Manaus_casos.png, id=39, 628.3475pt x 651.43375pt>
 File: figs/Dourados_Manaus_casos.png Graphic file (type png)
 <use figs/Dourados_Manaus_casos.png>
-Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 128.
+Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 129.
 (pdftex.def)             Requested size: 256.07741pt x 265.47926pt.
 <figs/Dourados_Manaus_casos_log.png, id=40, 619.31375pt x 651.43375pt>
 File: figs/Dourados_Manaus_casos_log.png Graphic file (type png)
 <use figs/Dourados_Manaus_casos_log.png>
-Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 136.
+Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 138.
 (pdftex.def)             Requested size: 256.07741pt x 269.36583pt.
- (d:/GitRepos/graficos_covid/relatorio/main.bbl
+ [7 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_100_mil.png>]
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [8 <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos_log.png>] (d:/GitRepos/graficos_covid/relatorio/main.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [7 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_100_mil.png>] [8 <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos_log.png>] (d:/GitRepos/graficos_covid/relatorio/main.aux) ) 
+) [9] (d:/GitRepos/graficos_covid/relatorio/main.aux) ) 
 Here is how much of TeX's memory you used:
  3385 strings out of 480476
  48546 string characters out of 5903482
@@ -297,10 +297,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,10n,45p,1042b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (8 pages, 696397 bytes).
+Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (9 pages, 697758 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
