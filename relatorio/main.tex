@@ -3,6 +3,9 @@
 
 \usepackage{sbc-template}
 
+\usepackage{hyperref}
+\usepackage{url}
+
 \usepackage{graphicx,url}
 
 \usepackage[brazil]{babel}   
@@ -122,8 +125,6 @@ Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos 
 
 \subsection{Curva de Casos e Comparação com o cenário de Manaus}\label{ssec:curvaMAU}
 
-Os dados apresentados até então apresentam um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizamos a Figura~\ref{fig:curva100K} {fig:curva100KLog} onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
-
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=.6\textwidth]{figs/Dourados_Manaus_casos.png}
@@ -131,7 +132,7 @@ Os dados apresentados até então apresentam um quadro estático, como um retrat
   \label{fig:curva100K}
   \end{figure}
 
-  Na base de dados utilizada o primeiro registro de casos em Manaus e datado no dia 28/03/2020, neste dia são apresentados 105 casos. Considerando a população estimada em 2182763 habitantes da cidade, obtemos uma taxa de 4.81 casos por cem mil habitantes. Já em Dourados, o índice de aproximados 4.81 casos por 100 mil habitantes só é alcançado no dia 14/04/2020.
+Os dados apresentados até então apresentam um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizamos a Figura~\ref{fig:curva100K} {fig:curva100KLog} onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
 
 \begin{figure}[!htb]
   \centering
@@ -140,18 +141,30 @@ Os dados apresentados até então apresentam um quadro estático, como um retrat
   \label{fig:curva100KLog}
   \end{figure}
 
+Na base de dados utilizada o primeiro registro de casos em Manaus e datado no dia 28/03/2020, neste dia são apresentados 105 casos. Considerando a população estimada em 2182763 habitantes da cidade, obtemos uma taxa de 4.81 casos por cem mil habitantes. Já em Dourados, o índice de aproximados 4.81 casos por 100 mil habitantes só é alcançado no dia 14/04/2020.
+
 Para efeito de Visualização de dados o dia zero da curva de Dourados foi lançado no mapa na data em que ele alcança a marca inicial do índice de casos por 100 mil habitantes da cidade de Manaus. O Amazonas foi um dos primeiros estados a registrar casos da doença e a evolução até a marca que aparece no primeiro registro não foi registrado, ao menos não pela base de dados utilizada nesta análise. 
 
 
+No começo da série temporal a cidade de Manaus apresenta uma evolução mais veloz que Dourados, Em determinado momento, a curva da capital do Amazonas se arrefece e a de Dourados começa a apresentar velocidade crescente.
 
+Na Figura~\ref{fig:curva100KLog} é possível notar um trecho praticamente reto na evolução dos números de casos em dourados. Uma função de reta foi a partir do ponto de ordenada 1.8 do gráfico, escolhido por inspeção visual. O resultado é uma reta bem ajustada, com os parâmetros \(0.04 \times x + 0.285\). Isso indica uma velocidade exponencial constante. O gráfico mostra que, pela primeira vez a evolução da curva em Dourados pode ultrapassar a registrada em Manaus.
+
+Com a curva ajustada por esses critérios, a data inicial deste comportamento exponencial é o dia 25/05/2020. Em uma primeira análise chama a atenção o fato desta data estar quinze dias distante de uma das principais datas comerciais e de reuniões familiares do pais, o dia das mães comemorou-se em 10/05 no ano de 2020. 
 
 \section{Modelo Preditivo}
 
----
+
 
 \section{Conclusão}\label{conc}
 
----
+Segundo os dados analisados e a metodologia aplicada, nota-se uma importância do município de Dourados, tanto do ponto de vista dos casos absolutos, quanto do ponto de vista dos casos relativos, quanto da centralidade espacial em relação à outros municípios que apresentam números importantes para serem levados em conta no planejamento das estratégias de combate ao vírus.
+
+A comparação com a curva de Manaus não indica necessariamente a reprodução do mesmo cenário. Diversos fatores devem ser levados em conta como a capacidade do sistema de saúde do local, o volume de testes realizados, a população do entorno, os demais centros urbanos que podem apoiar estes municípios, dentre outras informações que não constam no conjunto de dados analisados.
+
+Em futuros trabalhos seria importante entender a relação entre os municípios da região,o transito de pessoas, os deslocamentos e as políticas de distanciamento implementadas na região.
+
+Resta afirmar que o enfrentamento desta crise terá maior grau de sucesso caso as particularidades de cada região sejam devidamente avaliadas e, pelo estudo realizado, o município de Dourados apresenta uma relevância regional e estadual que não deve ser menospresada
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
