@@ -1,3 +1,30 @@
 \begin{thebibliography}{}
 
+\bibitem[min 2020]{minsaude}
+ (2020).
+\newblock Portal coronavÍrus brasil.
+\newblock \url{https://covid.saude.gov.br/}.
+
+\bibitem[DiPrima 2008]{2008elementary}
+DiPrima, R. (2008).
+\newblock {\em Elementary Differential Equations and Boundary Value Problems}.
+\newblock Wiley.
+
+\bibitem[Kermack and McKendrick 1927]{doi:10.1098/rspa.1927.0118}
+Kermack, W.~O. and McKendrick (1927).
+\newblock A contribution to the mathematical theory of epidemics.
+\newblock {\em Proceedings of the Royal Society of London. Series A, Containing
+  Papers of a Mathematical and Physical Character}, 115(772):700--721.
+
+\bibitem[Michael Lingzhi~Li 2020]{delphi}
+Michael Lingzhi~Li, e.~a. (2020).
+\newblock Overview of delphi model v2.8 - covidanalytics.
+\newblock {\em Open Report}.
+
+\bibitem[Thomas A~Mellan 2020]{impirial1}
+Thomas A~Mellan, e.~a. (2020).
+\newblock Report 21: Estimating covid-19 cases and reproduction number in
+  brazil.
+\newblock {\em Internal Report}.
+
 \end{thebibliography}
