@@ -73,7 +73,7 @@
 
 \section{Introdução}
 
-O avanço da pandemia da covid-19, causada pelo vírus SARS-CoV-2, tem se apresentado como o mais importante desafio do tempo presente. Autoridades políticas, cientistas e a sociedade tem buscado se organizar com o intuito de minimizar os grandes malefícios, direta ou indiretamente ligados à propagação desta enfermidade. De acordo com a \textit{Johns Hopkins University}, uma das principais fontes de dados mundiais sobre o tema, o número de casos confirmados no mundo já ultrapassa os 9 milhões (em 23/06/2020).
+O avanço da pandemia da covid-19, causada pelo vírus SARS-CoV-2, tem se apresentado como o mais importante desafio do tempo presente. Autoridades políticas, cientistas e a sociedade tem buscam estabelecer planos enfrentamento com o intuito de minimizar os grandes malefícios, direta ou indiretamente ligados à propagação desta enfermidade. De acordo com a \textit{Johns Hopkins University}, uma das principais fontes de dados mundiais sobre o tema, o número de casos confirmados no mundo já ultrapassa os 9 milhões (em 23/06/2020).
 
 A adequada coleta e análise dos dados relativos à pandemia tem sido uma importante ferramenta no enfrentamento desta crise, sendo usada para direcionar ações, recursos e informações em todas as esferas da sociedade, na procura de um caminho menos calamitoso na lida com este nebuloso cenário.
 
@@ -90,9 +90,9 @@ No presente trabalho, uma análise dos dados da cidade de Dourados, MS e apresen
 
 Mesmo sob a alardeada interiorização da pandemia no Brasil, o caso do município de Dourados, MS chama a atenção pelo fato de, mesmo com uma população equivalente à \(\nicefrac{1}{4}\) da de Campo Grande, apresenta um número total de casos diagnosticados aproximadamente 60\% maior do que os registrados na capital.
 
-A fonte de dados utilizada na elaboração deste relatório foram obtidas no portal \textbf{CORONAVÍRUS BRASIL}\footnote{https://covid.saude.gov.br/}, onde as informações oficiais do Ministério da Saúde sobre a pandemia são disponibilizados. As informações constantes como número de casos (acumulados e novos casos) e sobre a população de cada município foram extraídas desta base. Os dados utilizados foram os disponibilizados do dia 21/06/2020. 
+A fonte de dados utilizada na elaboração deste relatório foi obtidas no portal \textbf{CORONAVÍRUS BRASIL}\cite{minsaude}, onde as informações oficiais do Ministério da Saúde sobre a pandemia são disponibilizados. Os dados usados nas análises como número de casos (acumulados e novos casos) e sobre a população de cada município foram extraídas desta base (publicados no dia 21/06/2020). 
 
-Com base neste conjunto de dados, foram comparados o numero de casos e a população dos diferentes municípios do estado. Representadas em forma de diagramas e mapas (dados geoespaciais) procurando entender como está a distribuição de casos nas diversas regiões do estado. A curva de crescimento dos casos do município foram comparadas com a curva do município de Manaus, AM, procurando entender o quanto esta evolução se aproxima de um caso emblemático da evolução do contágio em território nacional.
+A partir destas informações, foram comparados o numero de casos e a população dos diferentes municípios do estado. Representadas em forma de diagramas e mapas (dados geoespaciais) procurando entender como está a distribuição de casos nas diversas regiões do estado. A curva de crescimento dos casos do município foram comparadas com a curva do município de Manaus, AM, procurando entender o quanto esta evolução se aproxima de um caso emblemático da evolução do contágio em território nacional.
 
 \begin{figure}[!htb]
   \centering
@@ -112,13 +112,13 @@ Com base neste conjunto de dados, foram comparados o numero de casos e a popula�
 
 \section{Análise de Dados}\label{sec:dados}
 
-As figuras~\ref{fig:casosMuni} e~\ref{fig:popuMuniMS} confirmam as informações sobre a  maior incidência de casos em Dourados do que na capital do estado, Campo Grande e mostra que o município está em primeiro lugar em número de casos do estado, sendo a segunda em população do estado.
+As figuras~\ref{fig:casosMuni} e~\ref{fig:popuMuniMS} confirmam as informações sobre a  maior incidência de casos em Dourados do que na capital, Campo Grande e mostra que o município está em primeiro lugar em número de casos, sendo a segunda em população do estado.
 
-Já em números relativos, a Figura~\ref{fig:popuMuniMS}, número de casos por 100 mil habitantes, mostra que a cidade objeto deste estudo está em quinto lugar. As cidades que aparecem em sua frente nesta lista, sendo estas: Guia Lopes da Laguna, Douradina, Fátima do Sul e Vicentina, pela ordem, possuem populações muito inferiores. Respectivamente 9895, 5924, 19189 e  6102 habitantes. A de maior população dentre estas (Guia Lopez das Lagunas) apresenta menos de \(\nicefrac{1}{10}\) da população de Dourados. Deve-se levar em conta que, quanto menor a cidade, um mesmo número de casos leva a uma proporção maior quando a análise é ponderada pelo número de habitantes. Ainda assim, estas cidades aparecem em posições altas na lista das maiores em número de casos totais (Fig.~\ref{fig:casosMuni}). Guia Lopes da Laguna, Fátima do Sul, Douradina e Vicentina são respectivamente a terceira(252 casos), quinta(210), décima primeira(93) e décima sexta(93). 
+Já em números relativos, a Figura~\ref{fig:popuMuniMS}, número de casos por 100 mil habitantes, mostra que a cidade objeto deste estudo está em quinto lugar. As cidades que aparecem em sua frente nesta lista: Guia Lopes da Laguna, Douradina, Fátima do Sul e Vicentina, pela ordem, possuem populações muito inferiores. Respectivamente 9895, 5924, 19189 e  6102 habitantes. A de maior população dentre estas (Guia Lopez das Lagunas) apresenta menos de \(\nicefrac{1}{10}\) da população de Dourados. Deve-se levar em conta que, quanto menor a cidade, um mesmo número de casos leva a uma proporção maior quando a análise é ponderada pelo número de habitantes. Ainda assim, estas cidades aparecem em posições altas na lista das maiores em número de casos totais (Fig.~\ref{fig:casosMuni}). Guia Lopes da Laguna, Fátima do Sul, Douradina e Vicentina são respectivamente a terceira(252 casos), quinta(210), décima primeira(93) e décima sexta(93). 
 
 \subsection{Dados Geoespaciais}\label{ssec:geo}
 
-O aspecto geográfico é de grande impacto na análise de dados de um fenômeno com as características de uma epidemia. Os estados, cidades e até mesmo subdivisões menores do espaço como bairros e localidades ou maiores como países e  continentes não delimitam populações estanques e incomunicáveis. As dinâmicas de deslocamento das populações são fundamentais para o entendimento dos caminhos que o vírus percorreu até um determinado local, mas também para estabelecer estratégias de combate eficazes.
+O aspecto geográfico é de grande impacto na análise de dados de um fenômeno com as características de uma epidemia. Os estados, cidades, até mesmo subdivisões menores do espaço como bairros e localidades ou maiores como países e  continentes não delimitam populações estanques e incomunicáveis. Entender as dinâmicas de deslocamento das pessoas é fundamentais para rastrear os caminhos que o vírus percorreu até um determinado local, mas também para estabelecer estratégias de combate eficazes.
 
 \begin{figure}[!htb]
   \centering
@@ -127,7 +127,7 @@ O aspecto geográfico é de grande impacto na análise de dados de um fenômeno 
   \label{fig:mapaCasos}
   \end{figure}
 
-Dois mapas foram utilizados para visualizar o cenário atual do estado: Um que mostra os municípios com maior incidência de casos totais (Fig.~\ref{fig:mapaCasos}) e outro que mostra a incidência por cem mil habitantes (Fig.~\ref{fig:mapa100K}). Tanto o município de Dourados, quanto seu entorno aparecem em destaque na escala de cores nos dois mapas.
+Dois mapas foram utilizados para visualizar o cenário atual do estado: Um que mostra os municípios com maior incidência de casos totais (Fig.~\ref{fig:mapaCasos}) e outro que mostra a incidência por cem mil habitantes (Fig.~\ref{fig:mapa100K}). Tanto o município de Dourados, quanto seu entorno aparecem em destaque nos mapas de calor utilizados em ambos os mapas.
 
 \begin{figure}[!htb]
     \centering
@@ -136,9 +136,9 @@ Dois mapas foram utilizados para visualizar o cenário atual do estado: Um que m
     \label{fig:mapa100K}
     \end{figure}
   
-Das quatro cidades que apresentam maior número de casos por 100 mil habitantes (Fig.~\ref{fig:casosMuni100k}) apenas Guia Lopes da Laguna não faz fronteira com o município estudado. Considerando as 10 cidades com maior número de casos por 100 mil habitantes seis fazem divisa com o Dourados. Além do próprio estar em quinto lugar da lista temos: Douradina em segundo, Fátima do Sul em terceiro, Vicentina em quarto, Rio Brilhante em sexto Itaporã em oitavo e Deodápolis em décimo. Em primeiro lugar, Guia Lopes da Laguna não está tão distante, fazendo fronteira com dois municípios que possuem divisas com Dourados. 
+Das quatro cidades que apresentam maior número de casos por 100 mil habitantes (Fig.~\ref{fig:casosMuni100k}) apenas Guia Lopes da Laguna não faz fronteira com o município em foco. Considerando as 10 cidades com maior número de casos por 100 mil habitantes seis fazem divisa com o Dourados. Além do próprio estar em quinto lugar da lista: Douradina em segundo, Fátima do Sul em terceiro, Vicentina em quarto, Rio Brilhante em sexto Itaporã em oitavo e Deodápolis em décimo. Em primeiro lugar, Guia Lopes da Laguna não está tão distante, fazendo fronteira com dois municípios que possuem divisas com Dourados. 
 
-Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos confirmados em todo o estado. Considerando os municípios que fazem divisas diretas (Maracaju, Rio Brilhante, Itaporã, Douradina, Deodápolis, Fátima do Sul, Caarapó, Laguna Carapã e Ponta Porã) o obtemos 48\% dos casos registados até a data final deste estudo. Se forem acrescidos os municípios de Vicentina e Glória de Dourados chega-se á praticamente metade (49,7\%) dos casos do estado.
+Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos confirmados nesta unidade da federação. Considerando os municípios que fazem divisas diretas (Maracaju, Rio Brilhante, Itaporã, Douradina, Deodápolis, Fátima do Sul, Caarapó, Laguna Carapã e Ponta Porã) o obtemos 48\% dos casos registados até a data final deste estudo. Se forem acrescidos os municípios de Vicentina e Glória de Dourados chega-se á praticamente metade (49,7\%) dos casos do estado.
 
 \subsection{Curva de Casos e Comparação com o cenário de Manaus}\label{ssec:curvaMAU}
 
@@ -149,7 +149,7 @@ Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos 
   \label{fig:curva100K}
   \end{figure}
 
-Os dados apresentados até então apresentam um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizamos a Figura~\ref{fig:curva100K} {fig:curva100KLog} onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
+Os dados apresentados até então mostram um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizou-se a Figura~\ref{fig:curva100K},onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
 
 \begin{figure}[!htb]
   \centering
@@ -158,16 +158,17 @@ Os dados apresentados até então apresentam um quadro estático, como um retrat
   \label{fig:curva100KLog}
   \end{figure}
 
-Na base de dados utilizada o primeiro registro de casos em Manaus e datado no dia 28/03/2020, neste dia são apresentados 105 casos. Considerando a população estimada em 2182763 habitantes da cidade, obtemos uma taxa de 4.81 casos por cem mil habitantes. Já em Dourados, o índice de aproximados 4.81 casos por 100 mil habitantes só é alcançado no dia 14/04/2020.
+Na base de dados utilizada o primeiro registro de casos em Manaus e datado no dia 28/03/2020, apresentando 105 casos. Considerando a população estimada em 2182763 habitantes da cidade, obtemos uma taxa de 4.81 casos por cem mil habitantes. Já em Dourados, o índice de aproximados 4.81 casos por 100 mil habitantes só é alcançado no dia 14/04/2020.
 
-Para efeito de Visualização de dados o dia zero da curva de Dourados foi lançado no mapa na data em que ele alcança a marca inicial do índice de casos por 100 mil habitantes da cidade de Manaus. O Amazonas foi um dos primeiros estados a registrar casos da doença e a evolução até a marca que aparece no primeiro registro não foi registrado, ao menos não pela base de dados utilizada nesta análise. 
-
+Para efeito de Visualização de dados, o dia zero da curva de Dourados foi lançado no mapa na data em que ele alcança a marca inicial do índice de casos por 100 mil habitantes da cidade de Manaus. O Amazonas foi um dos primeiros estados a apresentar casos da doença, e a evolução até a marca que aparece no primeiro dia com diagnósticos não foi registrado pela base de dados utilizada nesta análise. 
 
 No começo da série temporal a cidade de Manaus apresenta uma evolução mais veloz que Dourados, Em determinado momento, a curva da capital do Amazonas se arrefece e a de Dourados começa a apresentar velocidade crescente.
 
-Na Figura~\ref{fig:curva100KLog} é possível notar um trecho praticamente reto na evolução dos números de casos em dourados. Uma função de reta foi a partir do ponto de ordenada 1.8 do gráfico, escolhido por inspeção visual. O resultado é uma reta bem ajustada, com os parâmetros \(0.04 \times x + 0.285\). Isso indica uma velocidade exponencial constante. O gráfico mostra que, pela primeira vez a evolução da curva em Dourados pode ultrapassar a registrada em Manaus.
+Na Figura~\ref{fig:curva100KLog} é possível notar um trecho praticamente reto na evolução dos números de casos em dourados. Uma função de reta foi a partir do ponto de ordenada 1.8 do gráfico, escolhido por inspeção visual. O resultado é uma reta bem ajustada, com os parâmetros \(0.04 \times x + 0.285\). Isso indica uma velocidade exponencial constante. O gráfico mostra que a velocidade de propagação por cem mil habitantes da cidade Dourados já é maior que a de Manaus.
 
-Com a curva ajustada por esses critérios, a data inicial deste comportamento exponencial é o dia 25/05/2020. Em uma primeira análise chama a atenção o fato desta data estar quinze dias distante de uma das principais datas comerciais e de reuniões familiares do pais, o dia das mães comemorou-se em 10/05 no ano de 2020. 
+Com a curva ajustada por esses critérios, a data inicial deste comportamento exponencial é o dia 25/05/2020. Em uma primeira análise chama a atenção o fato desta data estar quinze dias distante de uma das principais datas comerciais e de reuniões familiares do pais, o dia das mães comemorou-se em 10/05 no ano de 2020.
+
+nos dias zero à 15 Da Figura\ref{fig:curva100KLog}, nota-se um crescimento exponencial no número de casos por 100 mil habitantes na capital do Amazonas. neste período a velocidade de crescimento em Manaus e maior que na cidade do Mato Grosso do Sul. A parti
 
 \section{Modelo Preditivo}
 
@@ -175,115 +176,123 @@ A busca de modelos matemáticos que pudessem ajudar a quantificar e estudar a ev
 
 Hoje temos duas linhas bem distintas de modelos matemáticos aplicados à epidemiologia, os modelos estocásticos e os modelos determinísticos. Os modelos estocásticos usam regressões e séries temporais e as previsões são feitas com base em distribuições estatísticas. Um exemplo dessa classe é o modelo do grupo do \textit{Imperial College COVID-19 Response Team}\cite{impirial1}. O modelo DELPHI\cite{delphi} se encaixa na classe dos modelos determinísticos, onde um conjunto de equações diferenciais é integrado num problema de valor de contorno\cite{2008elementary}. 
 
-O modelo DELPHI usa o conjunto de equações diferenciais conhecidas como \(SEIRD\) onde as variáveis  são:
-
+O modelo DELPHI usa o conjunto de equações diferenciais conhecidas como $SEIRD$ onde as variáveis  são 
 \begin{itemize}
-  \item \(S\) para suscetível,
-  \item \(E\) para exposto,
-  \item \(I\) para infectados,
-  \item \(R\) para recuperados,
-  \item \(D\) para óbitos.
-  \end{itemize}
+\item $S$ para suscetível,
+\item $E$ para exposto,
+\item $I$ para infectados,
+\item $R$ para recuperados,
+\item $D$ para óbitos.
+\end{itemize}
+Este conjunto é organizado da forma seguinte,
 
-Este conjunto é organizado da forma seguinte:
+\begin{align*}
+ \frac{dS}{dt} & = - \alpha \gamma(t) S(t) I(t) \\
+ \frac{dE}{dt} & = \alpha \gamma(t) S(t) I(t) \\
+ \frac{dI}{dt} & = r_i E(t) - r_d I(t) \\
+ \frac{d AR}{dt} & = r_d(1 - p_{dth})(1 - p_d) I(t) - r_{ri} AR(t) \\
+ \frac{d DHR}{dt} & =  r_d (1 - p_{dth}) p_d p_h I(t) - r_{rh} DHR(t) \\
+ \frac{d DQR}{dt} & = r_d (1 - p_{dth}) p_d (1 - p_h) I(t) - r_{ri} DQR(t) \\
+ \frac{d AD}{dt} & =  r_d p_{dth} (1 - p_d) I(t) - r_{dth} AD(t) \\
+ \frac{d DHD}{dt} & =  r_d p_{dth} p_{dph} I(t) - r_{dth} DHD(t) \\
+ \frac{d DQD}{dt} & =  r_d p_{dth} p_d(1 - p_h) I(t) - r_{dth} DQD(t) \\
+ \frac{d TH}{dt} & = r_d p_d p_h I(t)  \\
+ \frac{d DD}{dt} & =  r_{dth} (DHD(t) + DQD(t)) \\
+ \frac{d DT}{dt} & = r_d  p_d I(t) \\
+ \frac{d R}{dt} & =  r_{ri} (AR(t) + DQR(t)) + r_{rh} DHR(t) \\
+ \frac{d D}{dt} & =  r_{dth} (AD(t) + DQD(t) + DHD(t)) \, .
+\end{align*}
 
-  \begin{align*}
-    \frac{dS}{dt} & = - \alpha \gamma(t) S(t) I(t) \\
-    \frac{dE}{dt} & = \alpha \gamma(t) S(t) I(t) \\
-    \frac{dI}{dt} & = r_i E(t) - r_d I(t) \\
-    \frac{d AR}{dt} & = r_d(1 - p_{dth})(1 - p_d) I(t) - r_{ri} AR(t) \\
-    \frac{d DHR}{dt} & =  r_d (1 - p_{dth}) p_d p_h I(t) - r_{rh} DHR(t) \\
-    \frac{d DQR}{dt} & = r_d (1 - p_{dth}) p_d (1 - p_h) I(t) - r_{ri} DQR(t) \\
-    \frac{d AD}{dt} & =  r_d p_{dth} (1 - p_d) I(t) - r_{dth} AD(t) \\
-    \frac{d DHD}{dt} & =  r_d p_{dth} p_{dph} I(t) - r_{dth} DHD(t) \\
-    \frac{d DQD}{dt} & =  r_d p_{dth} p_d(1 - p_h) I(t) - r_{dth} DQD(t) \\
-    \frac{d TH}{dt} & = r_d p_d p_h I(t)  \\
-    \frac{d DD}{dt} & =  r_{dth} (DHD(t) + DQD(t)) \\
-    \frac{d DT}{dt} & = r_d  p_d I(t) \\
-    \frac{d R}{dt} & =  r_{ri} (AR(t) + DQR(t)) + r_{rh} DHR(t) \\
-    \frac{d D}{dt} & =  r_{dth} (AD(t) + DQD(t) + DHD(t)) \, .
-   \end{align*}
+Além das variáveis $SEIRD$ tradicionais descritas acima, o modelo apresenta o detalhamento 
+\begin{itemize}
+\item Não detectados $(AR)$ \& $(AD)$: pessoas infectadas e em auto quarentena em casa devido a efeitos da doença. São variáveis para tratar caoso não detectados. De alguma maneira as pessoas se recuperam $(AR)$ e algumas morrem  $(AD)$.
 
-   Além das variáveis $SEIRD$ tradicionais descritas acima, o modelo apresenta o detalhamento 
-   \begin{itemize}
-   \item Não detectados $(AR)$ \& $(AD)$: pessoas infectadas e em auto quarentena em casa devido a efeitos da doença. São variáveis para tratar caoso não detectados. De alguma maneira as pessoas se recuperam $(AR)$ e algumas morrem  $(AD)$.
-   
-   \item Detectados, Hospitalizados $(DHR)$ \& $(DHD)$: pessoas infectadas e testadas que necessitaram de hospitalização. Novamente a terminação R para recuperados e D para mortos.
-   
-   \item Detectados, em quarentena $(DQR)$ \& $(DQD)$: pessoas infectadas e em quarentena em casa. Segue a designação de $R$ e $D$.
-   
-   \end{itemize}
-   
-   A primeira equação do conjunto representa que a variação do número de pessoas suscetíveis ao longo do tempo cai (sinal negativo) com a taxa de infecção $\alpha$ a função auxiliar $\gamma$ e o contato entre os suscetíveis $S$ e os infectados $I$. Da mesma forma a segunda equação representa que o número de expostos aumenta com o contato entre os suscetíveis $S$ e os infectados $I$. Para a equação dos infectados, a terceira, temos que seu número aumenta com o tempo na taxa $r_i$ com a qual os expostos $E$ se tronam doentes, e cai com a taxa $r_d$. Assim cada uma das equações seguintes representam como cada variável aumenta com a sua respectiva taxa de variação.  Na última equação o total de óbitos é a soma dos possíveis caminhos previstos no modelo.
+\item Detectados, Hospitalizados $(DHR)$ \& $(DHD)$: pessoas infectadas e testadas que necessitaram de hospitalização. Novamente a terminação R para recuperados e D para mortos.
 
-   \begin{figure}[!htb]
-    \centering
-    \includegraphics[width=.6\textwidth]{figs/gamma_1.png}
-     \caption{Formato típico da função \(gamma (t)\), aqui para os parâmetros \(a = 20\) e \(b = 5\). No processo de previsão estes números são ajustados.}
-     \label{gamma}
-    \end{figure}
+\item Detectados, em quarentena $(DQR)$ \& $(DQD)$: pessoas infectadas e em quarentena em casa. Segue a designação de $R$ e $D$.
 
-   Os parâmetros do modelo são:
-   \begin{itemize}
-    \item $\alpha$ taxa de infecção (ajustado).
-    
-    \item $\gamma(t)$ medidas governamentais e respostas:
-   \[
-     \gamma(t) = \frac{2}{\pi} \arctan \left( \frac{-(t - a)}{b}  \right) + 1
-   \]
-   usando os  a and b, é possível modelar o tempo de duração dos ajustes como restrição de comércio, distanciamento social, etc. Os parâmetros $a$ e $b$ são ajustados.
-   
-   \item $r_d$ é a taxa de detecção.   $ r_d = \frac{log 2}{T_d}$,
-    onde $T_d$ é a mediana do tempo para detecção (suposto ser 2 dias). Parâmetro fixo.
-   
-   \item $r_i$ é a taxa de infecção deixando o tempo de incubação. 
-     $r_i = \frac{log 2}{T_i}$  onde $T_i$ é o tempo mediano para deixar o período de incubação (suposto ser 5 dias).  Parâmetro fixo.
-   
-   \item $r_{ri}$ é taxa de recuperação fora da hospitalização. 
-      $r_{ri} = \frac{log 2}{T_{ri}}$, onde $T_{ri}$ é a mediana do tempo de recuperação dos casos não hospitalizados (suposto ser 10 dias). Parâmetro fixo.
-   
-   \item $r_{rh}$ é taxa de recuperação sob hospitalização.
-   $r_{rh} = \frac{log 2}{T_{rh}}$ where $T_{rh}$, é a mediana do tempo de recuperação dos casos  hospitalizados (suposto ser 15 dias). Parâmetro fixo.
-   
-   \item $r_{dth}$ é a taxa de morte.
-    $r_{dth} = \frac{log 2}{T_{dth}}$, onde $T_{dth}$ é o tempo de espera do paciente até a morte  Parâmetro ajustado aos dados históricos.
-   
-   \item $p_{dth}$ é a taxa de mortalidade. Parâmetro ajustado diretamente das curvas de óbitos.
-   
-   \item $p_d$ é a porcentagem de casos detectados. Este valor é fixo em 0.2. Isto significa que para cada caso conhecido há 5 casos não detectados. 
-   
-   \item $p_h$ é a porcentagem de detectados hospitalizados. Também é constante. 
-   
-   \end{itemize}
+\end{itemize}
+
+A primeira equação do conjunto representa que a variação do número de pessoas suscetíveis ao longo do tempo cai (sinal negativo) com a taxa de infecção $\alpha$ a função auxiliar $\gamma$ e o contato entre os suscetíveis $S$ e os infectados $I$. Da mesma forma a segunda equação representa que o número de expostos aumenta com o contato entre os suscetíveis $S$ e os infectados $I$. Para a equação dos infectados, a terceira, temos que seu número aumenta com o tempo na taxa $r_i$ com a qual os expostos $E$ se tronam doentes, e cai com a taxa $r_d$. Assim cada uma das equações seguintes representam como cada variável aumenta com a sua respectiva taxa de variação.  Na última equação o total de óbitos é a soma dos possíveis caminhos previstos no modelo.
+
+
+Os parâmetros do modelo são:
+\begin{itemize}
+ \item $\alpha$ taxa de infecção (ajustado).
+ 
+ \item $\gamma(t)$ medidas governamentais e respostas:
+\[
+  \gamma(t) = \frac{2}{\pi} \arctan \left( \frac{-(t - a)}{b}  \right) + 1
+\]
+usando os  a and b, é possível modelar o tempo de duração dos ajustes como restrição de comércio, distanciamento social, etc. Os parâmetros $a$ e $b$ são ajustados.
+
+\item $r_d$ é a taxa de detecção.   $ r_d = \frac{log 2}{T_d}$,
+ onde $T_d$ é a mediana do tempo para detecção (suposto ser 2 dias). Parâmetro fixo.
+
+\item $r_i$ é a taxa de infecção deixando o tempo de incubação. 
+  $r_i = \frac{log 2}{T_i}$  onde $T_i$ é o tempo mediano para deixar o período de incubação (suposto ser 5 dias).  Parâmetro fixo.
+
+\item $r_{ri}$ é taxa de recuperação fora da hospitalização. 
+   $r_{ri} = \frac{log 2}{T_{ri}}$, onde $T_{ri}$ é a mediana do tempo de recuperação dos casos não hospitalizados (suposto ser 10 dias). Parâmetro fixo.
+
+\item $r_{rh}$ é taxa de recuperação sob hospitalização.
+$r_{rh} = \frac{log 2}{T_{rh}}$ where $T_{rh}$, é a mediana do tempo de recuperação dos casos  hospitalizados (suposto ser 15 dias). Parâmetro fixo.
+
+\item $r_{dth}$ é a taxa de morte.
+ $r_{dth} = \frac{log 2}{T_{dth}}$, onde $T_{dth}$ é o tempo de espera do paciente até a morte  Parâmetro ajustado aos dados históricos.
+
+\item $p_{dth}$ é a taxa de mortalidade. Parâmetro ajustado diretamente das curvas de óbitos.
+
+\item $p_d$ é a porcentagem de casos detectados. Este valor é fixo em 0.2. Isto significa que para cada caso conhecido há 5 casos não detectados. 
+
+\item $p_h$ é a porcentagem de detectados hospitalizados. Também é constante. 
+
+\end{itemize}
+
 
 Antes de passarmos para as previsões do modelo é importante entender a ação da função $\gamma(t)$ na modelagem. A interpretação correta dos resultados depende deste entendimento.
-
-    Na lista acima há parâmetros fixos e parâmetros ajustados. Os parâmetros fixos são aqueles que estão ligados à natureza humana, como tempo de incubação por exemplo, e não dependem de condições regionais. Os parâmetros ajustados são aqueles que vão carregar para o modelo as peculiaridades de cada população. O juste é feito com base nas curvas de óbitos acumulados (com peso maior) e nas curvas casos acumulados. O modelo considera o período a partir do centésimo caso cumulado detectado até a ultima atualização. O ajuste dos parâmetros é feito de forma a minimizar o quadrado da diferença entre a previsão o os casos reais. Os dados aqui usados são do Ministério da Saúde do Brasil \cite{minsaude}.
-    
-    \begin{figure}[!htb]
-     \centering
-     \includegraphics[width = 8cm]{figs/Fig_Brasil_MS_DouradosFCol_20200623.jpg}
-     \caption{De cima para baixo, (1) em barra azuis o número total de casos acumulados segundo o Ministério da Saúde para a cidade de Dourados (MS), e em vermelho a curva de previsão do modelo DELPHI com previsão para 25 dias. (2) O mesmo para o número de casos diários. (3) Em barras azuis o número de óbitos acumulados e em vermelho a previsão.}
-     \label{proj_set}
-    \end{figure}
-
-    \begin{figure}[!htb]
-      \centering
-      \includegraphics[width=8cm]{figs/Fig_Brasil_MS_Dourados_zoom_20200623.jpg}
-      \caption{Primeiro gráfico da figura \ref{proj_set} aumentado e com projeção para duas semanas. Barras azuis são casos acumulados e curva vermelha previsão DELPHI.}
-      \label{proj_zoo}
-     \end{figure}
+\begin{figure}[t]
+\centering
+\includegraphics[width = 8cm]{figs/gamma_1.png}
+ \caption{Formato típico da função $\gamma (t)$, aqui para os parâmetros $a = 20$ e $b = 5$. No processo de previsão estes números são ajustados.}
+ \label{gamma}
+\end{figure}
 
 
-     Observando a figura (\ref{gamma}) vemos que a função $\gamma(t)$ é sempre decrescente. Este fato captura o comportamento típico de uma epidemia viral onde a taxa de reprodução da doença normalmente cai com o número de infectados se tronando imunes ao longo do tempo, mas ela não é perfeita para a COVID-19. A adoção medidas de isolamento social de fato contribui para a diminuição da taxa de reprodução e a função $\gamma$ como está é perfeita, porém a saída precoce do isolamento social pode fazer a taxa de reprodução voltar a crescer, a neste caso a função necessita de ajuste, ou as previsões ficariam com tendência otimista. No modelo original o grupo responsável pelo seu desenvolvimento acrescentou um módulo contando com as políticas adotadas em cada localidade. Esta implantação é restrita aos EUA, e não se aplica ao Brasil. Está em andamento um trabalho ainda inconcluso de adaptação desta estrutura de cálculo para o Brasil. Então as previsões aqui apresentadas podem ter um viés otimista.
+Na lista acima há parâmetros fixos e parâmetros ajustados. Os parâmetros fixos são aqueles que estão ligados à natureza humana, como tempo de incubação por exemplo, e não dependem de condições regionais. Os parâmetros ajustados são aqueles que vão carregar para o modelo as peculiaridades de cada população. O ajuste é feito com base nas curvas de óbitos acumulados (com peso maior) e nas curvas casos acumulados. O modelo considera o período a partir do centésimo caso cumulado detectado até a ultima atualização. O ajuste dos parâmetros é feito de forma a minimizar o quadrado da diferença entre a previsão o os casos reais. Os dados aqui usados são do Ministério da Saúde do Brasil \cite{minsaude}.  
 
-A projeção (figura \ref{proj_set}) é ainda para um aumento tanto no número de casos novos como no número de óbitos nos próximos dias. No ajuste dos parâmetros o modelo usa todos os dados do período a partir do dia do centésimo caso. Então esta projeção é um apanhado de todo que aconteceu anteriormente até o dia de hoje, o maior ou menor isolamento social e efeitos de outras medias ficam embutidos nos parâmetros. O ajuste para Dourados ficou bem próximo dos casos reais, e para um período de dias à frente é uma boa previsão. O modelo permite previsões por quantos dias quisermos. Aqui foi escolhido 25 dias para dar uma ideia do que acontece se nada mudar. Se o isolamento social for quebrado antes do tempo correto o números reais seguirão acima da previsão. Se, por outro lado, medidas de contenção da pandemia como isolamento, uso de máscaras, etc forem bem aplicados, os números reais estarão abaixo da previsão.
+\begin{figure}[t]
+ \centering
+ \includegraphics[width = 8cm]{figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg}
+ \caption{Na figura as barras azuis o número total de casos acumulados segundo o Ministério da Saúde para a cidade de Dourados (MS), e em vermelho a curva de previsão do modelo DELPHI com previsão para 25 dias.}
+ \label{proj_casos}
+\end{figure}
 
-Previsões para uma ou duas semanas são mais seguras por estarem mais próximo do conjunto de atitudes passadas. Na figura (\ref{proj_zoo}) a projeção é de aproximação dos 3 mil casos em duas semanas. 
+
+\begin{figure}[t]
+ \centering
+ \includegraphics[width=8cm]{figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg}
+ \caption{Gráfico de óbitos. Barras azuis são casos acumulados e curva vermelha previsão DELPHI para 25 dias.}
+ \label{proj_obitos}
+\end{figure}
+
+
+Observando a figura (\ref{gamma}) vemos que a função $\gamma(t)$ é sempre decrescente. Este fato captura o comportamento típico de uma epidemia viral onde a taxa de reprodução da doença normalmente cai com o número de infectados se tronando imunes ao longo do tempo, mas ela não é perfeita para a COVID-19. A adoção medidas de isolamento social de fato contribui para a diminuição da taxa de reprodução e a função $\gamma$ como está é perfeita, porém a saída precoce do isolamento social pode fazer a taxa de reprodução voltar a crescer, a neste caso a função necessita de ajuste, ou as previsões ficariam com tendência otimista. No modelo original o grupo responsável pelo seu desenvolvimento acrescentou um módulo contando com as políticas adotadas em cada localidade. Esta implantação é restrita aos EUA, e não se aplica ao Brasil. Está em andamento um trabalho ainda inconcluso de adaptação desta estrutura de cálculo para o Brasil. Então as previsões aqui apresentadas podem ter um viés otimista. 
+
+
+
+A projeção (figuras \ref{proj_casos} e \ref{proj_obitos}) é ainda para um aumento tanto no número de casos novos como no número de óbitos nos próximos dias. No ajuste dos parâmetros o modelo usa todos os dados do período a partir do dia do centésimo caso. Então esta projeção é um apanhado de todo que aconteceu anteriormente até o dia da último boletim. Para Dourados o dia inicial é 23 de maio e o último boletim tem dados de 23 de junho. 
+O maior ou menor isolamento social e efeitos de outras medias ficam embutidos nos parâmetros. O ajuste para Dourados ficou bem próximo dos casos reais, e para um período de dias à frente é uma boa previsão. O modelo permite previsões por quantos dias quisermos. Aqui foi escolhido 25 dias para dar uma ideia do que acontece se nada mudar. Se o isolamento social for quebrado antes do tempo correto o números reais seguirão acima da previsão. Se, por outro lado, medidas de contenção da pandemia como isolamento, uso de máscaras, etc forem bem aplicados, os números reais estarão abaixo da previsão. 
+ 
+Na figura (\ref{proj_casos}) observamos que o comportamento de crescimento até hoje é exponencial. O mesmo comportamento vai se refletir na curva de óbitos (figura \ref{proj_obitos}), que vinha mostrando um crescimento lento no número de mortes até 14 de junho, e a partir daí dispara exponencialmente. Mantida esta tendência o número de óbitos pode dobrar em duas semanas.   
+
 
      
 
 \section{Conclusão}\label{conc}
+
+As previsões oferecidas pelo modelo, além dos dados reais, mostram um cenário de crescimento da epidemia em Dourados para as próximas semanas. Esta previsão leva em conta tudo que aconteceu a partir de 23 de maio até 23 de junho, os cuidados e a falta deles ao longo do tempo. A forma mais eficiente conhecida para conter esta evolução é o distanciamento social. Continuaremos a fazer previsões e verificar o comportamento destas tendências.  
+
 
 Segundo os dados analisados e a metodologia aplicada, nota-se uma importância do município de Dourados, tanto do ponto de vista dos casos absolutos, quanto do ponto de vista dos casos relativos, quanto da centralidade espacial em relação à outros municípios que apresentam números importantes para serem levados em conta no planejamento das estratégias de combate ao vírus.
 
