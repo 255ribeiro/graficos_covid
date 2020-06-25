@@ -149,7 +149,7 @@ Em números absolutos Dourados é o primeiro do estado. Totaliza 34\% dos casos 
   \label{fig:curva100K}
   \end{figure}
 
-Os dados apresentados até então mostram um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizou-se a Figura~\ref{fig:curva100K},onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
+Os dados apresentados até então mostram um quadro estático, como um retrato de um momento da pandemia no estado. Para avaliar a evolução do quadro ao longo do tempo, utilizou-se a Figura~\ref{fig:curva100K}, onde pode-se ver os gráficos de casos por 100 mil habitantes a cada dia, e a Figura~\ref{fig:curva100KLog}, que apresenta casos por 100 mil habitantes em escala logarítmica (base 10) por dia. Ambos apresentam a cidade de Dourados comparada a curva de Manaus, AM.
 
 \begin{figure}[!htb]
   \centering
@@ -162,13 +162,11 @@ Na base de dados utilizada o primeiro registro de casos em Manaus e datado no di
 
 Para efeito de Visualização de dados, o dia zero da curva de Dourados foi lançado no mapa na data em que ele alcança a marca inicial do índice de casos por 100 mil habitantes da cidade de Manaus. O Amazonas foi um dos primeiros estados a apresentar casos da doença, e a evolução até a marca que aparece no primeiro dia com diagnósticos não foi registrado pela base de dados utilizada nesta análise. 
 
-No começo da série temporal a cidade de Manaus apresenta uma evolução mais veloz que Dourados, Em determinado momento, a curva da capital do Amazonas se arrefece e a de Dourados começa a apresentar velocidade crescente.
+No começo da série temporal a cidade de Manaus apresenta uma evolução mais veloz que Dourados (curva ajustada 1). Próximo ao ponto do gráfico onde a curva da capital do Amazonas a arrefecer, a evolução da cidade de Dourados começa a apresentar velocidade crescente (curva ajustada 2)com uma inclinação próxima à registrada anteriormente em Manaus, por um tempo também semelhante, após um ligeiro arrefecimento a aceleração dos casos de Dourados segue sem sinais de mudança de velocidade. 
 
-Na Figura~\ref{fig:curva100KLog} é possível notar um trecho praticamente reto na evolução dos números de casos em dourados. Uma função de reta foi a partir do ponto de ordenada 1.8 do gráfico, escolhido por inspeção visual. O resultado é uma reta bem ajustada, com os parâmetros \(0.04 \times x + 0.285\). Isso indica uma velocidade exponencial constante. O gráfico mostra que a velocidade de propagação por cem mil habitantes da cidade Dourados já é maior que a de Manaus.
+A Figura~\ref{fig:curva100K} as curvas se aproximam em casos por 100 mil habitantes e na Figura~\ref{fig:curva100KLog} as curvas que mostram a velocidade da contaminação também se aproximam, considerando os critérios apresentados.
 
-Com a curva ajustada por esses critérios, a data inicial deste comportamento exponencial é o dia 25/05/2020. Em uma primeira análise chama a atenção o fato desta data estar quinze dias distante de uma das principais datas comerciais e de reuniões familiares do pais, o dia das mães comemorou-se em 10/05 no ano de 2020.
-
-nos dias zero à 15 Da Figura\ref{fig:curva100KLog}, nota-se um crescimento exponencial no número de casos por 100 mil habitantes na capital do Amazonas. neste período a velocidade de crescimento em Manaus e maior que na cidade do Mato Grosso do Sul. A parti
+A comparação entre casos de estudo e casos emblemáticos da pandemia ajudam a entender possíveis cenários futuros mas, como toda ferramenta analítica, apresentam limitações. Um modelo matemático preditivo foi utilizado como um elemento adicional de avaliação.
 
 \section{Modelo Preditivo}
 
@@ -276,7 +274,6 @@ Na lista acima há parâmetros fixos e parâmetros ajustados. Os parâmetros fix
  \label{proj_obitos}
 \end{figure}
 
-
 Observando a figura (\ref{gamma}) vemos que a função $\gamma(t)$ é sempre decrescente. Este fato captura o comportamento típico de uma epidemia viral onde a taxa de reprodução da doença normalmente cai com o número de infectados se tronando imunes ao longo do tempo, mas ela não é perfeita para a COVID-19. A adoção medidas de isolamento social de fato contribui para a diminuição da taxa de reprodução e a função $\gamma$ como está é perfeita, porém a saída precoce do isolamento social pode fazer a taxa de reprodução voltar a crescer, a neste caso a função necessita de ajuste, ou as previsões ficariam com tendência otimista. No modelo original o grupo responsável pelo seu desenvolvimento acrescentou um módulo contando com as políticas adotadas em cada localidade. Esta implantação é restrita aos EUA, e não se aplica ao Brasil. Está em andamento um trabalho ainda inconcluso de adaptação desta estrutura de cálculo para o Brasil. Então as previsões aqui apresentadas podem ter um viés otimista. 
 
 
@@ -293,14 +290,10 @@ Na figura (\ref{proj_casos}) observamos que o comportamento de crescimento até 
 
 As previsões oferecidas pelo modelo, além dos dados reais, mostram um cenário de crescimento da epidemia em Dourados para as próximas semanas. Esta previsão leva em conta tudo que aconteceu a partir de 23 de maio até 23 de junho, os cuidados e a falta deles ao longo do tempo. A forma mais eficiente conhecida para conter esta evolução é o distanciamento social. Continuaremos a fazer previsões e verificar o comportamento destas tendências.  
 
-
 Segundo os dados analisados e a metodologia aplicada, nota-se uma importância do município de Dourados, tanto do ponto de vista dos casos absolutos, quanto do ponto de vista dos casos relativos, quanto da centralidade espacial em relação à outros municípios que apresentam números importantes para serem levados em conta no planejamento das estratégias de combate ao vírus.
 
-A comparação com a curva de Manaus não indica necessariamente a reprodução do mesmo cenário. Diversos fatores devem ser levados em conta como a capacidade do sistema de saúde do local, o volume de testes realizados, a população do entorno, os demais centros urbanos que podem apoiar estes municípios, dentre outras informações que não constam no conjunto de dados analisados.
+O objetivo de uma análise de dados é nortear as ações de técnicos, epidemiologistas, profissionais de saúde e gestores no combate à crise que vivemos. Mesmo com as limitações inerentes a cada ferramenta utilizada nesta pesquisa, a sobreposição de evidências permite recomendar extrema cautela na definição dos próximos passos. 
 
-Em futuros trabalhos seria importante entender a relação entre os municípios da região,o transito de pessoas, os deslocamentos e as políticas de distanciamento implementadas na região.
-
-Resta afirmar que o enfrentamento desta crise terá maior grau de sucesso caso as particularidades de cada região sejam devidamente avaliadas e, pelo estudo realizado, o município de Dourados apresenta uma relevância regional e estadual que não deve ser menosprezada.
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}
