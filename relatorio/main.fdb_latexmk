@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1593043981 "main.aux" "main.bbl" "main" 1593044049
+["bibtex main"] 1593043981 "main.aux" "main.bbl" "main" 1593044568
   "./sbc.bst" 1592915834 21863 e2f961827e28074ef5a2bc27ccb7b310 ""
   "main.aux" 1593043986 5827 c060182f1ca330a25550b56448a387d3 "pdflatex"
   "sbc-template.bib" 1593002606 1524 429e37f92c5bc5b63653bbb5b30688bf ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1593043982 "d:/GitRepos/graficos_covid/relatorio/main.tex" "d:/GitRepos/graficos_covid/relatorio/main.pdf" "main" 1593044049
+  "main.blg"
+["pdflatex"] 1593043982 "d:/GitRepos/graficos_covid/relatorio/main.tex" "d:/GitRepos/graficos_covid/relatorio/main.pdf" "main" 1593044568
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1591032147 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1591032844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1591031652 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -127,7 +127,7 @@
   "c:/texlive/2020/texmf.cnf" 1591051784 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "caption2.sty" 1592915834 15189 50845fba222dc25666abc3397b231fab ""
   "d:/GitRepos/graficos_covid/relatorio/main.aux" 1593043986 5827 c060182f1ca330a25550b56448a387d3 ""
-  "d:/GitRepos/graficos_covid/relatorio/main.tex" 1593044045 24800 a6c09fae11d015c07c2546d650fd86c3 ""
+  "d:/GitRepos/graficos_covid/relatorio/main.tex" 1593044564 24800 a6c09fae11d015c07c2546d650fd86c3 ""
   "figs/Dourados_Manaus_casos.png" 1593042461 34166 1853c55339506194696ac9c28511fc9b ""
   "figs/Dourados_Manaus_casos_log.png" 1593042462 44218 7bc3b70d54b582b4294099f4f4ea1dc2 ""
   "figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg" 1593027171 39838 880970e923c9a917312b51e7668d39b7 ""
@@ -141,12 +141,12 @@
   "main.aux" 1593043986 5827 c060182f1ca330a25550b56448a387d3 "pdflatex"
   "main.bbl" 1593043982 1004 80d4fc399f61ba368c98c45a4a15501d "bibtex main"
   "main.out" 1593043986 425 4e45c9d55effd370d8f834f7668fefa1 "pdflatex"
-  "main.tex" 1593044045 24800 a6c09fae11d015c07c2546d650fd86c3 ""
+  "main.tex" 1593044564 24800 a6c09fae11d015c07c2546d650fd86c3 ""
   "sbc-template.sty" 1592915834 5280 0a277450ee6cfc82a68e4b0b0f92e15e ""
   (generated)
-  "d:/GitRepos/graficos_covid/relatorio/main.log"
-  "main.pdf"
-  "main.log"
-  "main.out"
   "main.aux"
+  "main.pdf"
+  "d:/GitRepos/graficos_covid/relatorio/main.log"
+  "main.log"
   "d:/GitRepos/graficos_covid/relatorio/main.pdf"
+  "main.out"
