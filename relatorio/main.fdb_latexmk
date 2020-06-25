@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1593105960 "main.aux" "main.bbl" "main" 1593106088
+["bibtex main"] 1593105960 "main.aux" "main.bbl" "main" 1593106793
   "./sbc.bst" 1592915834 21863 e2f961827e28074ef5a2bc27ccb7b310 ""
-  "main.aux" 1593106081 6752 f6db25c23e6255ba51b6cb1c83979fd9 "pdflatex"
+  "main.aux" 1593106792 6752 f6db25c23e6255ba51b6cb1c83979fd9 "pdflatex"
   "modelo.bib" 1593096703 2747 31f3dfcbfa5f9bce4c605a0decd72e17 ""
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1593106074 "d:/GitRepos/graficos_covid/relatorio/main.tex" "d:/GitRepos/graficos_covid/relatorio/main.pdf" "main" 1593106088
+["pdflatex"] 1593106787 "d:/GitRepos/graficos_covid/relatorio/main.tex" "d:/GitRepos/graficos_covid/relatorio/main.pdf" "main" 1593106793
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1591032147 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1591032844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1591031652 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -126,8 +126,8 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1591052219 2434985 5c1ccb7024a1d87a24fdd9d2bf1d1d15 ""
   "c:/texlive/2020/texmf.cnf" 1591051784 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "caption2.sty" 1592915834 15189 50845fba222dc25666abc3397b231fab ""
-  "d:/GitRepos/graficos_covid/relatorio/main.aux" 1593106081 6752 f6db25c23e6255ba51b6cb1c83979fd9 ""
-  "d:/GitRepos/graficos_covid/relatorio/main.tex" 1593106071 26557 42c06722bae7a8be56c09a9390dfc6ff ""
+  "d:/GitRepos/graficos_covid/relatorio/main.aux" 1593106792 6752 f6db25c23e6255ba51b6cb1c83979fd9 ""
+  "d:/GitRepos/graficos_covid/relatorio/main.tex" 1593106784 26564 57917145aa75ff564a0f57bcd3e23c7a ""
   "figs/Dourados_Manaus_casos.png" 1593102040 34233 e2f67c0dc2ed2d758827b0f90716dc12 ""
   "figs/Dourados_Manaus_casos_log.png" 1593102041 45571 10286bdad848129df8941e155da5c29a ""
   "figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg" 1593027171 39838 880970e923c9a917312b51e7668d39b7 ""
@@ -140,15 +140,15 @@
   "figs/mapa_casos_100_mil.png" 1593102059 168070 8dd6831e9a4c646f7d961bac7cac401b ""
   "figs/mapa_casos_registrados.png" 1593102060 162885 75528f6ff275d264a9baf509acfaf8b6 ""
   "figs/pop_por_municipio.png" 1593102053 127776 96f52a3072b53affe67a2daa73d79d23 ""
-  "main.aux" 1593106081 6752 f6db25c23e6255ba51b6cb1c83979fd9 "pdflatex"
+  "main.aux" 1593106792 6752 f6db25c23e6255ba51b6cb1c83979fd9 "pdflatex"
   "main.bbl" 1593105962 2041 d488c6f127aa6ce1ab574df83a41cb80 "bibtex main"
-  "main.out" 1593106081 567 25516e372f3a30a36bfa35a41f437f66 "pdflatex"
-  "main.tex" 1593106071 26557 42c06722bae7a8be56c09a9390dfc6ff ""
+  "main.out" 1593106792 567 25516e372f3a30a36bfa35a41f437f66 "pdflatex"
+  "main.tex" 1593106784 26564 57917145aa75ff564a0f57bcd3e23c7a ""
   "sbc-template.sty" 1592915834 5280 0a277450ee6cfc82a68e4b0b0f92e15e ""
   (generated)
-  "main.aux"
-  "d:/GitRepos/graficos_covid/relatorio/main.pdf"
   "main.out"
-  "main.log"
   "d:/GitRepos/graficos_covid/relatorio/main.log"
+  "d:/GitRepos/graficos_covid/relatorio/main.pdf"
+  "main.aux"
   "main.pdf"
+  "main.log"

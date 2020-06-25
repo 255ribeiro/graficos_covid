@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  25 JUN 2020 14:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  25 JUN 2020 14:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -464,7 +464,7 @@ File: figs/Dourados_Manaus_casos_log.png Graphic file (type png)
 Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 181.
 (pdftex.def)             Requested size: 256.07741pt x 247.78337pt.
  [7 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_registrados.png>] [8 <d:/GitRepos/graficos_covid/relatorio/figs/mapa_casos_100_mil.png>] [9 <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/relatorio/figs/Dourados_Manaus_casos_log.png>]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 204.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 203.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -474,31 +474,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figs/gamma_1.png, id=149, 462.528pt x 346.896pt>
 File: figs/gamma_1.png Graphic file (type png)
 <use figs/gamma_1.png>
-Package pdftex.def Info: figs/gamma_1.png  used on input line 279.
+Package pdftex.def Info: figs/gamma_1.png  used on input line 278.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 <figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg, id=151, 642.4pt x 481.8pt>
 File: figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg Graphic file (type jpg)
 <use figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg>
-Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg  used on input line 289.
+Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg  used on input line 288.
 (pdftex.def)             Requested size: 227.62204pt x 170.71304pt.
 <figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg, id=152, 642.4pt x 481.8pt>
 File: figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg Graphic file (type jpg)
 <use figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg>
-Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg  used on input line 297.
+Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg  used on input line 296.
 (pdftex.def)             Requested size: 227.62204pt x 170.71304pt.
  [12]
 Underfull \vbox (badness 2368) has occurred while \output is active []
 
  [13 <d:/GitRepos/graficos_covid/relatorio/figs/gamma_1.png> <d:/GitRepos/graficos_covid/relatorio/figs/Fig_Brasil_MS_Dourados_casos_20200624_025dias.jpg>] (d:/GitRepos/graficos_covid/relatorio/main.bbl [14 <d:/GitRepos/graficos_covid/relatorio/figs/Fig_Brasil_MS_Dourados_obitos_20200624_025dias.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 322.
  [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 322.
  (d:/GitRepos/graficos_covid/relatorio/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 323.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 323.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 322.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 322.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 25516E372F3A30A36BFA35A41F437F66;567.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 322.
  ) 
 Here is how much of TeX's memory you used:
  8331 strings out of 480476
@@ -509,7 +509,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1116b,444s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (15 pages, 864770 bytes).
+Output written on d:/GitRepos/graficos_covid/relatorio/main.pdf (15 pages, 864771 bytes).
 PDF statistics:
  250 PDF objects out of 1000 (max. 8388607)
  194 compressed objects within 2 object streams
