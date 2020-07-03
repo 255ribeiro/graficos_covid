@@ -9,7 +9,7 @@ app.layout = html.Div(children =[
     html.H1('Dash Tutorials'),
     dcc.Graph(id = 'example1',
                 figure = {
-                            'data' : [
+                            'data': [
 
                                 {'x': [1,2,3,4,5], 'y': [6,7,8,4,3], 'type': 'bar', 'name': 'teste barplot'},
                                 {'x': [1,2,3,4,5], 'y': [2,9,8,1,7], 'type': 'line', 'name': 'teste lineplot'}
