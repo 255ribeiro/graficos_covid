@@ -21,5 +21,9 @@ conda env create -f geodata20.yml
 
 1. As imagens são geradas na pasta data\output\
 
+## links úteis
+
+[links](./links.md)
+
 
 
