@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex main"] 1594405587 "main.aux" "main.bbl" "main" 1594412695
+["bibtex main"] 1594415421 "main.aux" "main.bbl" "main" 1594415914
   "./sbc.bst" 1592915834 21863 e2f961827e28074ef5a2bc27ccb7b310 ""
-  "main.aux" 1594412512 6816 b1c518386bccab81fac4390ddebf9498 "pdflatex"
+  "main.aux" 1594415913 6796 e5d04e855d9af6d0aec4f85642143358 "pdflatex"
   "modelo.bib" 1594404540 2963 cc1bd915b4b2fd23feaa26e4aa171d74 ""
   (generated)
   "main.blg"
   "main.bbl"
-["pdflatex"] 1594412505 "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.tex" "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.pdf" "main" 1594412695
+["pdflatex"] 1594415907 "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.tex" "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.pdf" "main" 1594415914
   "c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc" 1591032147 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1591032844 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2020/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1591031652 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -121,8 +121,8 @@
   "c:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1591052219 2434985 5c1ccb7024a1d87a24fdd9d2bf1d1d15 ""
   "c:/texlive/2020/texmf.cnf" 1591051784 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "caption2.sty" 1592915834 15189 50845fba222dc25666abc3397b231fab ""
-  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.aux" 1594412512 6816 b1c518386bccab81fac4390ddebf9498 ""
-  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.tex" 1594412692 19307 e60539d8101da8e6b1b9a3b5aa6650fe ""
+  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.aux" 1594415913 6796 e5d04e855d9af6d0aec4f85642143358 ""
+  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.tex" 1594415901 19144 f3d442734420a3028960204812a00385 ""
   "figs/Dourados_Manaus_casos.png" 1594395187 55442 071032a928b62d0a7b2eda1ea600fbe8 ""
   "figs/Dourados_Manaus_casos_log.png" 1594395188 72349 a92c95325618eb079d23a1e99b39912a ""
   "figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg" 1594388549 43056 01c6dba0777df9f30ba8b8281720558b ""
@@ -134,15 +134,15 @@
   "figs/mapa_casos_registrados.png" 1594395228 280027 aa0bb0793111dfd329f3dc219548acee ""
   "figs/media_cof_desc.png" 1594401861 31499 c616102ce7ff37ac5a768a11d4201e50 ""
   "figs/taxa_positivo.png" 1594402758 25307 a2e8260b82bddeb8a3ae76ff5d83f8d4 ""
-  "main.aux" 1594412512 6816 b1c518386bccab81fac4390ddebf9498 "pdflatex"
-  "main.bbl" 1594405588 616 e9b842c1beb70a5d6d5eb909c992e749 "bibtex main"
-  "main.out" 1594412512 521 ac9dd1f19d7eec0ef8eb084570f257a8 "pdflatex"
-  "main.tex" 1594412692 19307 e60539d8101da8e6b1b9a3b5aa6650fe ""
+  "main.aux" 1594415913 6796 e5d04e855d9af6d0aec4f85642143358 "pdflatex"
+  "main.bbl" 1594415422 616 e9b842c1beb70a5d6d5eb909c992e749 "bibtex main"
+  "main.out" 1594415913 521 ac9dd1f19d7eec0ef8eb084570f257a8 "pdflatex"
+  "main.tex" 1594415901 19144 f3d442734420a3028960204812a00385 ""
   "sbc-template.sty" 1592915834 5280 0a277450ee6cfc82a68e4b0b0f92e15e ""
   (generated)
-  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.pdf"
-  "main.out"
   "main.pdf"
+  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.log"
+  "main.out"
   "main.aux"
   "main.log"
-  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.log"
+  "d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.pdf"

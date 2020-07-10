@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  10 JUL 2020 17:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.6.1)  10 JUL 2020 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -394,23 +394,23 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 64.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 62.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 <figs/casos_por_municipio.png, id=36, 849.1725pt x 1057.3101pt>
 File: figs/casos_por_municipio.png Graphic file (type png)
 <use figs/casos_por_municipio.png>
-Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 82.
+Package pdftex.def Info: figs/casos_por_municipio.png  used on input line 80.
 (pdftex.def)             Requested size: 426.79135pt x 531.39641pt.
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 81.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 <figs/casos_100_mil_por_municipio.png, id=38, 853.5087pt x 1058.0328pt>
 File: figs/casos_100_mil_por_municipio.png Graphic file (type png)
 <use figs/casos_100_mil_por_municipio.png>
-Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 91.
+Package pdftex.def Info: figs/casos_100_mil_por_municipio.png  used on input line 89.
 (pdftex.def)             Requested size: 426.79135pt x 529.06354pt.
  [1
 
@@ -431,55 +431,55 @@ Underfull \vbox (badness 1137) has occurred while \output is active []
 <figs/mapa_casos_registrados.png, id=67, 1084.05pt x 1084.05pt>
 File: figs/mapa_casos_registrados.png Graphic file (type png)
 <use figs/mapa_casos_registrados.png>
-Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 111.
+Package pdftex.def Info: figs/mapa_casos_registrados.png  used on input line 109.
 (pdftex.def)             Requested size: 426.79135pt x 426.79733pt.
  [4 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/mapa_casos_registrados.png>]
 <figs/mapa_casos_100_mil.png, id=76, 854.2314pt x 814.4829pt>
 File: figs/mapa_casos_100_mil.png Graphic file (type png)
 <use figs/mapa_casos_100_mil.png>
-Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 125.
+Package pdftex.def Info: figs/mapa_casos_100_mil.png  used on input line 123.
 (pdftex.def)             Requested size: 341.43437pt x 325.53882pt.
 <figs/Dourados_Manaus_casos.png, id=79, 628.0263pt x 609.2361pt>
 File: figs/Dourados_Manaus_casos.png Graphic file (type png)
 <use figs/Dourados_Manaus_casos.png>
-Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 136.
+Package pdftex.def Info: figs/Dourados_Manaus_casos.png  used on input line 134.
 (pdftex.def)             Requested size: 213.39568pt x 207.00739pt.
  [5 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/mapa_casos_100_mil.png>]
 <figs/Dourados_Manaus_casos_log.png, id=87, 618.6312pt x 609.2361pt>
 File: figs/Dourados_Manaus_casos_log.png Graphic file (type png)
 <use figs/Dourados_Manaus_casos_log.png>
-Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 145.
+Package pdftex.def Info: figs/Dourados_Manaus_casos_log.png  used on input line 143.
 (pdftex.def)             Requested size: 213.39568pt x 210.14949pt.
  [6 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/Dourados_Manaus_casos.png> <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/Dourados_Manaus_casos_log.png>]
 <figs/casos_conf_desc.png, id=99, 803.0pt x 451.6875pt>
 File: figs/casos_conf_desc.png Graphic file (type png)
 <use figs/casos_conf_desc.png>
-Package pdftex.def Info: figs/casos_conf_desc.png  used on input line 162.
+Package pdftex.def Info: figs/casos_conf_desc.png  used on input line 160.
 (pdftex.def)             Requested size: 320.0935pt x 180.05838pt.
 <figs/taxa_positivo.png, id=100, 803.0pt x 451.6875pt>
 File: figs/taxa_positivo.png Graphic file (type png)
 <use figs/taxa_positivo.png>
-Package pdftex.def Info: figs/taxa_positivo.png  used on input line 171.
+Package pdftex.def Info: figs/taxa_positivo.png  used on input line 169.
 (pdftex.def)             Requested size: 320.0935pt x 180.05838pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 182.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 179.
  (c:/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [7 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/casos_conf_desc.png>]
 <figs/media_cof_desc.png, id=109, 803.0pt x 451.6875pt>
 File: figs/media_cof_desc.png Graphic file (type png)
 <use figs/media_cof_desc.png>
-Package pdftex.def Info: figs/media_cof_desc.png  used on input line 186.
+Package pdftex.def Info: figs/media_cof_desc.png  used on input line 183.
 (pdftex.def)             Requested size: 320.0935pt x 180.05838pt.
  [8 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/taxa_positivo.png> <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/media_cof_desc.png>]
 <figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg, id=125, 462.528pt x 346.896pt>
 File: figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg Graphic file (type jpg)
 <use figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg>
-Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg  used on input line 206.
+Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg  used on input line 203.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
 <figs/Fig_Brasil_MS_Dourados_obitos_20200708.jpg, id=129, 462.528pt x 346.896pt>
 File: figs/Fig_Brasil_MS_Dourados_obitos_20200708.jpg Graphic file (type jpg)
 <use figs/Fig_Brasil_MS_Dourados_obitos_20200708.jpg>
-Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_obitos_20200708.jpg  used on input line 215.
+Package pdftex.def Info: figs/Fig_Brasil_MS_Dourados_obitos_20200708.jpg  used on input line 212.
 (pdftex.def)             Requested size: 227.62204pt x 170.71628pt.
  [9 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/Fig_Brasil_MS_Dourados_casos_20200708.jpg>] [10 <d:/GitRepos/graficos_covid/acompanhamento_dou_ms/figs/Fig_Brasil_MS_Dourados_obitos_20200708.jpg>] (d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.bbl
 Underfull \hbox (badness 4673) in paragraph at lines 8--11
@@ -492,29 +492,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 236.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
  [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 236.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 236.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 236.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: AC9DD1F19D7EEC0EF8EB084570F257A8;521.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 233.
  ) 
 Here is how much of TeX's memory you used:
- 8321 strings out of 480476
- 124755 string characters out of 5903482
+ 8319 strings out of 480476
+ 124723 string characters out of 5903482
  420744 words of memory out of 5000000
- 24121 multiletter control sequences out of 15000+600000
+ 24119 multiletter control sequences out of 15000+600000
  551234 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,45p,1098b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,45p,1118b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2020/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.pdf (11 pages, 1026559 bytes).
+Output written on d:/GitRepos/graficos_covid/acompanhamento_dou_ms/main.pdf (11 pages, 1026718 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
+ 200 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
  120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
