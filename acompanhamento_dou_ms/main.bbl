@@ -1,0 +1,18 @@
+\begin{thebibliography}{}
+
+\bibitem[Coronavírus 2020]{minsaude}
+Coronavírus, P. (2020).
+\newblock \url{https://covid.saude.gov.br/}.
+
+\bibitem[do~Mato Grosso~do Sul 2020]{BoletinsMS}
+do~Mato Grosso~do Sul, G.~E. (2020).
+\newblock
+  \url{http://www.vs.saude.ms.gov.br/Geral/vigilancia-saude/vigilancia-epidemiologica/boletim-epidemiologico/}.
+
+\bibitem[Li et~al. 2020]{delphi}
+Li, M.~L., Bouardi, H.~T., Lami, O.~S., Trichakis, N., Trikalinos, T., and
+  Bertsimas, D. (2020).
+\newblock Overview of delphi model v2.8 - covidanalytics.
+\newblock \url{https://github.com/COVIDAnalytics/DELPHI}.
+
+\end{thebibliography}
