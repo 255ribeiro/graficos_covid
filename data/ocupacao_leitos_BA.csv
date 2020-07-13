@@ -1,0 +1,6 @@
+data;tipo;Total;Ocupados;Vagos;percent_ocupacao
+10/07/2020; Geral;2368;1532;836;0,65
+10/07/2020;Enf. Adulto;1353;762;591;0,56
+10/07/2020;Enf. Pediátrica;59;23;36;0,39
+10/07/2020;UTI Adulto;915;725;190;0,79
+10/07/2020;UTI Pediátrica;41;22;19;0,54
