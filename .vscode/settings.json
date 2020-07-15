@@ -10,5 +10,5 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "/home/ffribeiro/anaconda3/bin/python"
+    "python.pythonPath": "C:\\Users\\FERNANDO\\Anaconda3\\envs\\geodata20\\python.exe"
 }
