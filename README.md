@@ -4,8 +4,11 @@
 ## Graficos:
 
 ### Salvador:
-[Salvador Covid: Casos Por dia e média Móvel](./bahia_acompanhamento/figs/Salvador_dia_casos_Media_Movel.html)
-[Salvador Covid: Óbitos Por dia e média Móvel](./bahia_acompanhamento/figs/Salvador_dia_obitos_Media_Movel.html)
+
+![Salvador Covid: Casos Por dia e média Móvel](./bahia_acompanhamento/figs/Salvador_dia_casos_Media_Movel.html)
+
+
+![Salvador Covid: Óbitos Por dia e média Móvel](./bahia_acompanhamento/figs/Salvador_dia_obitos_Media_Movel.html)
 
 ## Geração dos gráficos:
 Geração automática de gráficos da covid
