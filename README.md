@@ -1,7 +1,7 @@
 # Graficos_covid 
 
 
-## Graficos:
+## Gráficos:
 
 ### Salvador:
 
