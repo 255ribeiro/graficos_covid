@@ -5,6 +5,14 @@
 
 ### Salvador:
 
+[Salvador Covid: Casos Acumulados](./bahia_acompanhamento/figs/Salvador_dia_casos_acumulados.html)
+
+[Salvador Covid: Casos Acumulados log](./bahia_acompanhamento/figs/Salvador_dia_casos_acumulados_log.html)
+
+[Salvador Covid: óbitos acumulados](./bahia_acompanhamento/figs/Salvador_dia_obitos_acumulados.html)
+
+[Salvador Covid: óbitos acumulados log](./bahia_acompanhamento/figs/Salvador_dia_obitos_acumulados_log.html)
+
 [Salvador Covid: Casos Por dia e média Móvel](./bahia_acompanhamento/figs/Salvador_dia_casos_Media_Movel.html)
 
 
