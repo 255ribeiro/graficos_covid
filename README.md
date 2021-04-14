@@ -27,7 +27,12 @@ Digite:
 
 ```
 conda env create -f geodata20.yml
+```
+ou
 
+```
+
+conda create  --clone geodata20 -p d:\pass\venv
 ```
 
 1. Atualizar o arquivo do site [https://covid.saude.gov.br/](https://covid.saude.gov.br/)
