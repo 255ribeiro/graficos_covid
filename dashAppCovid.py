@@ -57,23 +57,22 @@ server = app.server
 
 app.layout = html.Div(
 
-    [ html.H1('Gráficos COVID'),
-    html.Div([
-    
-    html.H2('Selecione estado e cidade: ', style={'text-align': 'left'}),
+    [
+        html.H1('Gráficos COVID'),
+        html.Div([
+        html.H2('Selecione estado e cidade: ', style={'text-align': 'left'}),
 
-    dcc.Dropdown(id='uf_picker' ,
-        options= [{'label': estado , 'value':  estado } for estado in list(dictUfMuni.keys()) ],
-        value='BA', style={'width': '50%', 'align': 'left'}),
-    dcc.Dropdown(id='muni_picker',
-        value = "Salvador", style={'width': '50%',  'align': 'left'})],
-        style = {'align': 'left'}
-        ), 
+        dcc.Dropdown(id='uf_picker' ,
+            options= [{'label': estado , 'value':  estado } for estado in list(dictUfMuni.keys()) ],
+            value='BA', style={'width': '50%', 'align': 'left'}),
+        dcc.Dropdown(id='muni_picker',
+            value = "Salvador", style={'width': '50%',  'align': 'left'})],
+            style = {'align': 'left'}
+            ), 
+        html.Div([dcc.Graph(id='casos_mm_fig'),
+        dcc.Graph(id='obitos_mm_fig')])
     
-    html.Div([dcc.Graph(id='casos_mm_fig'),
-    dcc.Graph(id='obitos_mm_fig')]),
-    
-], style={'text-align': 'center'})
+            ], style={'text-align': 'center'})
 
 
 @app.callback(
