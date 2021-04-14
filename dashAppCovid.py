@@ -53,6 +53,7 @@ for i in df['estado'].unique():
 
 app = dash.Dash()
 
+server = app.server
 
 app.layout = html.Div(
 
