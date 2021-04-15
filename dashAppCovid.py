@@ -28,7 +28,7 @@ def load_dataset(fZipName):
 
 ###
 
-df = load_dataset('HIST_PAINEL_COVIDBR_13abr2021')
+df = load_dataset('HIST_PAINEL_COVIDBR_14abr2021')
 
 
 def preproc_filter_df(estado, cidade):
@@ -72,7 +72,7 @@ app.layout = html.Div(
         html.Div([dcc.Graph(id='casos_mm_fig'),
         dcc.Graph(id='obitos_mm_fig')])
     
-            ], style={'text-align': 'center'})
+            ], style={'text-align': 'left'})
 
 
 @app.callback(

@@ -32,7 +32,7 @@ ou
 
 ```
 
-conda create  --clone geodata20 -p d:\pass\venv
+conda create  --clone geodata20 -p d:\path\to\work\folder\venv
 ```
 
 1. Atualizar o arquivo do site [https://covid.saude.gov.br/](https://covid.saude.gov.br/)
