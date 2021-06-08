@@ -9,19 +9,21 @@ blinker==1.4
 Brotli==1.0.7
 brotlipy==0.7.0
 cached-property==1.5.2
-cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1589982006730/work
+cachetools==4.2.2
 Cartopy==0.17.0
-certifi==2020.6.20
+certifi==2021.5.30
 cffi==1.14.0
-chardet==3.0.4
+chardet==4.0.0
 chart-studio==1.1.0
 click==7.1.2
 click-plugins==1.1.1
 cligj==0.5.0
 colorama==0.4.3
 contextily==1.0.0
+coverage==5.5
 cryptography==2.9.2
 cycler==0.10.0
+Cython==0.29.23
 dash==1.12.0
 dash-core-components==1.10.0
 dash-html-components==1.0.3
@@ -42,23 +44,22 @@ gast==0.4.0
 GDAL==2.3.3
 geographiclib==1.50
 geopandas==0.9.0
-geoplot @ file:///home/conda/feedstock_root/build_artifacts/geoplot_1589812057611/work
-geopy @ file:///home/conda/feedstock_root/build_artifacts/geopy_1589314920058/work
-google-auth==1.14.1
-google-auth-oauthlib==0.4.1
+geopy==2.1.0
+google-auth==1.30.2
+google-auth-oauthlib==0.4.4
 google-pasta==0.2.0
-grpcio==1.34.1
+grpcio==1.38.0
 h5py==3.1.0
-idna @ file:///tmp/build/80754af9/idna_1593446292537/work
-importlib-metadata @ file:///C:/ci/importlib-metadata_1593446525189/work
-ipykernel @ file:///D:/bld/ipykernel_1590023017759/work/dist/ipykernel-5.3.0-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1593433781269/work
+idna==2.10
+importlib-metadata==4.5.0
+ipykernel==5.5.5
+ipython==7.24.1
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
 itsdangerous==1.1.0
-jedi @ file:///C:/ci/jedi_1592833832328/work
+jedi==0.18.0
 Jinja2==2.11.2
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1589812474002/work
+joblib==1.0.1
 jsonschema==3.2.0
 jupyter==1.0.0
 jupyter-client==6.1.3
@@ -71,9 +72,10 @@ kiwisolver==1.2.0
 llvmlite==0.31.0
 lxml==4.5.1
 mapclassify==2.2.0
-Markdown==3.1.1
+Markdown==3.3.4
 MarkupSafe==1.1.1
-matplotlib @ file:///C:/ci/matplotlib-base_1592846084747/work
+matplotlib==3.4.2
+matplotlib-inline==0.1.2
 mccabe==0.6.1
 mercantile==1.1.4
 mistune==0.8.4
@@ -82,27 +84,27 @@ mkl-random==1.1.1
 mkl-service==2.3.0
 munch==2.5.0
 nbconvert==5.6.1
-nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
+nbformat==5.1.3
 notebook==6.0.3
 numba==0.48.0
-numpy==1.19.5
-oauthlib==3.1.0
+numpy==1.20.3
+oauthlib==3.1.1
 olefile==0.46
 opt-einsum==3.3.0
 OWSLib==0.17.0
 packaging==20.4
 pandas==1.2.4
 pandocfilters==1.4.2
-parso==0.7.0
+parso==0.8.2
 patsy==0.5.1
 pickleshare==0.7.5
 Pillow==7.1.2
 plotly==4.8.1
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
-protobuf==3.12.3
+protobuf==3.17.3
 pyasn1==0.4.8
-pyasn1-modules==0.2.7
+pyasn1-modules==0.2.8
 pycodestyle==2.6.0
 pycparser==2.20
 pyepsg==0.4.0
@@ -118,30 +120,30 @@ pyrsistent==0.16.0
 pyshp==2.1.0
 PySocks==1.7.1
 python-dateutil==2.8.1
-pytz==2020.1
+pytz==2021.1
 pywin32==227
 pywinpty==0.5.7
 pyzmq==19.0.1
-qtconsole @ file:///tmp/build/80754af9/qtconsole_1592848611704/work
+qtconsole==5.1.0
 QtPy==1.9.0
 rasterio==1.0.21
-requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+requests==2.25.1
 requests-oauthlib==1.3.0
 retrying==1.3.3
-rsa==4.0
+rsa==4.7.2
 Rtree==0.9.4
 scikit-learn==0.22.1
-scipy @ file:///C:/ci/scipy_1592916958183/work
+scipy==1.6.3
 seaborn==0.10.0
 Send2Trash==1.5.0
 Shapely==1.6.4.post1
-six==1.15.0
+six==1.16.0
 snuggs==1.4.7
-statsmodels @ file:///D:/bld/statsmodels_1591963449919/work
+statsmodels==0.12.2
 style==1.1.0
 tensorboard==2.5.0
 tensorboard-data-server==0.6.1
-tensorboard-plugin-wit==1.6.0
+tensorboard-plugin-wit==1.8.0
 tensorflow==2.5.0
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
@@ -149,15 +151,15 @@ terminado==0.8.3
 testpath==0.4.4
 tornado==6.0.4
 traitlets==4.3.3
-typing-extensions==3.7.4.3
+typing-extensions==3.10.0.0
 update==0.0.1
-urllib3==1.25.9
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+urllib3==1.26.5
+wcwidth==0.2.5
 webencodings==0.5.1
-Werkzeug==1.0.1
+Werkzeug==2.0.1
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 wincertstore==0.2
 wrapt==1.12.1
 xlrd==1.2.0
-zipp==3.1.0
+zipp==3.4.1
