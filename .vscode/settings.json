@@ -10,5 +10,6 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "c:\\Users\\ferra\\anaconda3\\envs\\geodata20\\python.exe"
+    "python.pythonPath": "c:\\Users\\ferra\\anaconda3\\envs\\geodata20\\python.exe",
+    "jupyter.jupyterServerType": "local"
 }
