@@ -70,7 +70,7 @@ opt-einsum==3.3.0
 pandas==1.2.5
 parso==0.8.2
 pickleshare==0.7.5
-Pillow==8.3.0
+Pillow==9.0.1
 plotly==5.1.0
 prompt-toolkit==3.0.19
 protobuf==3.17.3
